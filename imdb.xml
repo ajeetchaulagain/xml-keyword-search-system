@@ -1,0 +1,4813 @@
+<imdb>
+<movie>
+<title>The Godfather</title>
+<year>1972</year>
+<rating>9.2</rating>
+<ds>
+<director>
+<name>Francis Ford Coppola</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Crime</item>
+<item>Drama</item>
+</genres>
+<ws>
+<writer>
+<name>Mario Puzo</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Francis Ford Coppola</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Mario Puzo</name>
+<role>(novel)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<ls>
+<language>English</language>
+<language>Italian</language>
+<language>Latin</language>
+</ls>
+<cps>
+<company>Alfran Productions</company>
+<company>Paramount Pictures</company>
+</cps>
+<cast>
+<p>
+<name>Marlon Brando</name>
+<role>Don Vito Corleone</role>
+</p>
+<p>
+<name>Al Pacino</name>
+<role>Michael Corleone</role>
+</p>
+<p>
+<name>James Caan</name>
+<role>Santino 'Sonny' Corleone</role>
+</p>
+<p>
+<name>Richard S. Castellano</name>
+<role>Peter Clemenza</role>
+</p>
+<p>
+<name>Robert Duvall</name>
+<role>Tom Hagen</role>
+</p>
+</cast>
+<kws>
+<kw>mafia</kw>
+<kw>wedding</kw>
+<kw>organized-crime</kw>
+<kw>lawyer</kw>
+<kw>violence</kw>
+<kw>new-york-city</kw>
+<kw>1940s</kw>
+<kw>extramarital-affair</kw>
+<kw>falling-down-stairs</kw>
+<kw>thompson-gun</kw>
+</kws>
+</movie>
+<movie>
+<title>The Shawshank Redemption</title>
+<year>1994</year>
+<rating>9.2</rating>
+<ds>
+<director>
+<name>Frank Darabont</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Crime</item>
+<item>Drama</item>
+</genres>
+<ws>
+<writer>
+<name>Frank Darabont</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Stephen King</name>
+<role>(short story "Rita Hayworth and Shawshank Redemption")</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<mpaa>Rated R for language and prison violence.</mpaa>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>Castle Rock Entertainment</company>
+</cps>
+<cast>
+<p>
+<name>Tim Robbins</name>
+<role>Andy Dufresne</role>
+</p>
+<p>
+<name>Morgan Freeman</name>
+<role>Ellis Boyd 'Red' Redding</role>
+</p>
+<p>
+<name>Bob Gunton</name>
+<role>Warden Norton</role>
+</p>
+<p>
+<name>William Sadler</name>
+<role>Heywood</role>
+</p>
+<p>
+<name>Clancy Brown</name>
+<role>Captain Hadley</role>
+</p>
+</cast>
+<kws>
+<kw>prison</kw>
+<kw>murder</kw>
+<kw>friend</kw>
+<kw>banker</kw>
+<kw>hope</kw>
+<kw>imprisonment</kw>
+<kw>life-imprisonment</kw>
+<kw>1940s</kw>
+<kw>redemption</kw>
+<kw>prisoner</kw>
+</kws>
+</movie>
+<movie>
+<title>Il buono, il brutto, il cattivo.</title>
+<year>1966</year>
+<rating>9.0</rating>
+<ds>
+<director>
+<name>Sergio Leone</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Adventure</item>
+<item>Western</item>
+</genres>
+<ws>
+<writer>
+<name>Agenore Incrocci</name>
+<role>(screenplay) (as Age)</role>
+</writer>
+<writer>
+<name>Mickey Knox</name>
+<role>(English version by)</role>
+</writer>
+<writer>
+<name>Sergio Leone</name>
+<role>(story)</role>
+</writer>
+<writer>
+<name>Furio Scarpelli</name>
+<role>(screenplay) (as Scarpelli)</role>
+</writer>
+<writer>
+<name>Luciano Vincenzoni</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Sergio Leone</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Luciano Vincenzoni</name>
+<role>(story)</role>
+</writer>
+</ws>
+<cts>
+<country>Italy</country>
+<country>Spain</country>
+<country>West Germany</country>
+</cts>
+<ls>
+<language>Italian</language>
+</ls>
+<cps>
+<company>Arturo González Producciones Cinematográficas, S.A</company>
+<company>Constantin Film Produktion</company>
+<company>Produzioni Europee Associati (PEA)</company>
+</cps>
+<cast>
+<p>
+<name>Eli Wallach</name>
+<role>Tuco</role>
+</p>
+<p>
+<name>Clint Eastwood</name>
+<role>Blondie</role>
+</p>
+<p>
+<name>Lee Van Cleef</name>
+<role>Sentenza / Angel Eyes</role>
+</p>
+<p>
+<name>Aldo Giuffrè</name>
+<role>Alcoholic Union Captain</role>
+</p>
+<p>
+<name>Luigi Pistilli</name>
+<role>Father Pablo Ramirez</role>
+</p>
+</cast>
+<kws>
+<kw>gold</kw>
+<kw>cemetery</kw>
+<kw>scam</kw>
+<kw>outlaw</kw>
+<kw>honor</kw>
+<kw>hitman</kw>
+<kw>bandit</kw>
+<kw>third-part</kw>
+<kw>dehydration</kw>
+<kw>illiteracy</kw>
+</kws>
+</movie>
+<movie>
+<title>Inception</title>
+<year>2010</year>
+<rating>9.0</rating>
+<ds>
+<director>
+<name>Christopher Nolan</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Action</item>
+<item>Crime</item>
+<item>Mystery</item>
+<item>Sci-Fi</item>
+<item>Thriller</item>
+</genres>
+<ws>
+<writer>
+<name>Christopher Nolan</name>
+<role>(written by)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+<country>UK</country>
+</cts>
+<mpaa>Rated PG-13 for sequences of violence and action throughout.</mpaa>
+<ls>
+<language>English</language>
+<language>Japanese</language>
+<language>French</language>
+</ls>
+<cps>
+<company>Warner Bros. Pictures</company>
+<company>Legendary Pictures</company>
+<company>Syncopy</company>
+</cps>
+<cast>
+<p>
+<name>Leonardo DiCaprio</name>
+<role>Cobb</role>
+</p>
+<p>
+<name>Joseph Gordon-Levitt</name>
+<role>Arthur</role>
+</p>
+<p>
+<name>Ellen Page</name>
+<role>Ariadne</role>
+</p>
+<p>
+<name>Tom Hardy</name>
+<role>Eames</role>
+</p>
+<p>
+<name>Ken Watanabe</name>
+<role>Saito</role>
+</p>
+</cast>
+<kws>
+<kw>dream</kw>
+<kw>thief</kw>
+<kw>subconscious</kw>
+<kw>corporate-espionage</kw>
+<kw>children</kw>
+<kw>deception</kw>
+<kw>dreamer</kw>
+<kw>guilt</kw>
+<kw>one-last-job</kw>
+<kw>businessman</kw>
+</kws>
+</movie>
+<movie>
+<title>Pulp Fiction</title>
+<year>1994</year>
+<rating>9.0</rating>
+<ds>
+<director>
+<name>Quentin Tarantino</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Crime</item>
+<item>Drama</item>
+</genres>
+<ws>
+<writer>
+<name>Quentin Tarantino</name>
+<role>(written by)</role>
+</writer>
+<writer>
+<name>Roger Avary</name>
+<role>(stories)</role>
+</writer>
+<writer>
+<name>Quentin Tarantino</name>
+<role>(stories)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<mpaa>Rated R for strong graphic violence and drug use, pervasive strong language and some sexuality.</mpaa>
+<ls>
+<language>English</language>
+<language>Spanish</language>
+<language>French</language>
+</ls>
+<cps>
+<company>A Band Apart</company>
+<company>Jersey Films</company>
+<company>Miramax Films</company>
+</cps>
+<cast>
+<p>
+<name>John Travolta</name>
+<role>Vincent Vega</role>
+</p>
+<p>
+<name>Samuel L. Jackson</name>
+<role>Jules Winnfield</role>
+</p>
+<p>
+<name>Tim Roth</name>
+<role>Pumpkin - Ringo</role>
+</p>
+<p>
+<name>Amanda Plummer</name>
+<role>Honey Bunny - Yolanda</role>
+</p>
+<p>
+<name>Eric Stoltz</name>
+<role>Lance</role>
+</p>
+</cast>
+<kws>
+<kw>boxer</kw>
+<kw>restaurant</kw>
+<kw>briefcase</kw>
+<kw>gangster</kw>
+<kw>violence</kw>
+<kw>diner</kw>
+<kw>crime-boss</kw>
+<kw>coffee</kw>
+<kw>redemption</kw>
+<kw>killed-with-a-gun</kw>
+</kws>
+</movie>
+<movie>
+<title>The Godfather: Part II</title>
+<year>1974</year>
+<rating>9.0</rating>
+<ds>
+<director>
+<name>Francis Ford Coppola</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Crime</item>
+<item>Drama</item>
+</genres>
+<ws>
+<writer>
+<name>Mario Puzo</name>
+<role>(novel "The Godfather")</role>
+</writer>
+<writer>
+<name>Mario Puzo</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Francis Ford Coppola</name>
+<role>(screenplay)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<ls>
+<language>English</language>
+<language>Italian</language>
+<language>Spanish</language>
+<language>Latin</language>
+</ls>
+<cps>
+<company>Paramount Pictures</company>
+<company>The Coppola Company</company>
+</cps>
+<cast>
+<p>
+<name>Al Pacino</name>
+<role>Don Michael Corleone</role>
+</p>
+<p>
+<name>Robert Duvall</name>
+<role>Tom Hagen</role>
+</p>
+<p>
+<name>Diane Keaton</name>
+<role>Kay Corleone</role>
+</p>
+<p>
+<name>Robert De Niro</name>
+<role>Vito Corleone</role>
+</p>
+<p>
+<name>John Cazale</name>
+<role>Fredo Corleone</role>
+</p>
+</cast>
+<kws>
+<kw>cuba</kw>
+<kw>new-york</kw>
+<kw>1920s</kw>
+<kw>business</kw>
+<kw>1950s</kw>
+<kw>1910s</kw>
+<kw>lake-tahoe-nevada</kw>
+<kw>escape</kw>
+<kw>long-take</kw>
+<kw>child-murder</kw>
+</kws>
+</movie>
+<movie>
+<title>12 Angry Men</title>
+<year>1957</year>
+<rating>8.9</rating>
+<ds>
+<director>
+<name>Sidney Lumet</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Drama</item>
+<item>Mystery</item>
+</genres>
+<ws>
+<writer>
+<name>Reginald Rose</name>
+<role>(story and screenplay)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>Orion-Nova Productions</company>
+</cps>
+<cast>
+<p>
+<name>Martin Balsam</name>
+<role>Juror #1</role>
+</p>
+<p>
+<name>John Fiedler</name>
+<role>Juror #2</role>
+</p>
+<p>
+<name>Lee J. Cobb</name>
+<role>Juror #3</role>
+</p>
+<p>
+<name>E.G. Marshall</name>
+<role>Juror #4</role>
+</p>
+<p>
+<name>Jack Klugman</name>
+<role>Juror #5</role>
+</p>
+</cast>
+<kws>
+<kw>jury</kw>
+<kw>murder</kw>
+<kw>trial</kw>
+<kw>jury-room</kw>
+<kw>watchmaker</kw>
+<kw>law</kw>
+<kw>racism</kw>
+<kw>bank-clerk</kw>
+<kw>immigrant</kw>
+<kw>death-threat</kw>
+</kws>
+</movie>
+<movie>
+<title>One Flew Over the Cuckoo's Nest</title>
+<year>1975</year>
+<rating>8.9</rating>
+<ds>
+<director>
+<name>Milos Forman</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Drama</item>
+</genres>
+<ws>
+<writer>
+<name>Ken Kesey</name>
+<role>(novel)</role>
+</writer>
+<writer>
+<name>Dale Wasserman</name>
+<role>(play "One Flew Over the Cuckoo's Nest")</role>
+</writer>
+<writer>
+<name>Bo Goldman</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Lawrence Hauben</name>
+<role>(screenplay)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>Fantasy Films</company>
+</cps>
+<cast>
+<p>
+<name>Michael Berryman</name>
+<role>Ellis</role>
+</p>
+<p>
+<name>Peter Brocco</name>
+<role>Col. Matterson</role>
+</p>
+<p>
+<name>Dean R. Brooks</name>
+<role>Dr. Spivey</role>
+</p>
+<p>
+<name>Alonzo Brown</name>
+<role>Miller</role>
+</p>
+<p>
+<name>Scatman Crothers</name>
+<role>Turkle</role>
+</p>
+</cast>
+<kws>
+<kw>nurse</kw>
+<kw>patient</kw>
+<kw>asylum</kw>
+<kw>mental-institution</kw>
+<kw>basketball</kw>
+<kw>rebel</kw>
+<kw>playing-card</kw>
+<kw>christ-figure</kw>
+<kw>inspiring-story</kw>
+<kw>lifting-person-in-air</kw>
+</kws>
+</movie>
+<movie>
+<title>Schindler's List</title>
+<year>1993</year>
+<rating>8.9</rating>
+<ds>
+<director>
+<name>Steven Spielberg</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Biography</item>
+<item>Drama</item>
+<item>History</item>
+<item>War</item>
+</genres>
+<ws>
+<writer>
+<name>Steven Zaillian</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Thomas Keneally</name>
+<role>(book)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<mpaa>Rated R for language, some sexuality and actuality violence.</mpaa>
+<ls>
+<language>English</language>
+<language>Hebrew</language>
+<language>German</language>
+<language>Polish</language>
+</ls>
+<cps>
+<company>Universal Pictures</company>
+<company>Amblin Entertainment</company>
+</cps>
+<cast>
+<p>
+<name>Liam Neeson</name>
+<role>Oskar Schindler</role>
+</p>
+<p>
+<name>Ben Kingsley</name>
+<role>Itzhak Stern</role>
+</p>
+<p>
+<name>Ralph Fiennes</name>
+<role>Amon Goeth</role>
+</p>
+<p>
+<name>Caroline Goodall</name>
+<role>Emilie Schindler</role>
+</p>
+<p>
+<name>Jonathan Sagall</name>
+<role>Poldek Pfefferberg</role>
+</p>
+</cast>
+<kws>
+<kw>jew</kw>
+<kw>jewish</kw>
+<kw>nazi</kw>
+<kw>businessman</kw>
+<kw>death</kw>
+<kw>factory</kw>
+<kw>holocaust</kw>
+<kw>german</kw>
+<kw>concentration-camp</kw>
+<kw>polish-jew</kw>
+</kws>
+</movie>
+<movie>
+<title>The Dark Knight</title>
+<year>2008</year>
+<rating>8.9</rating>
+<ds>
+<director>
+<name>Christopher Nolan</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Crime</item>
+<item>Drama</item>
+<item>Thriller</item>
+</genres>
+<ws>
+<writer>
+<name>Christopher Nolan</name>
+<role>(story)</role>
+</writer>
+<writer>
+<name>Bob Kane</name>
+<role>(characters)</role>
+</writer>
+<writer>
+<name>Christopher Nolan</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>David S. Goyer</name>
+<role>(story)</role>
+</writer>
+<writer>
+<name>Jonathan Nolan</name>
+<role>(screenplay)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+<country>UK</country>
+</cts>
+<mpaa>Rated PG-13 for intense sequences of violence and some menace.</mpaa>
+<ls>
+<language>English</language>
+<language>Mandarin</language>
+</ls>
+<cps>
+<company>Warner Bros. Pictures</company>
+<company>Legendary Pictures</company>
+<company>DC Comics</company>
+<company>Syncopy</company>
+</cps>
+<cast>
+<p>
+<name>Christian Bale</name>
+<role>Bruce Wayne / Batman</role>
+</p>
+<p>
+<name>Aaron Eckhart</name>
+<role>Harvey Dent</role>
+</p>
+<p>
+<name>Heath Ledger</name>
+<role>Joker</role>
+</p>
+<p>
+<name>Michael Caine</name>
+<role>Alfred</role>
+</p>
+<p>
+<name>Maggie Gyllenhaal</name>
+<role>Rachel</role>
+</p>
+</cast>
+<kws>
+<kw>batman</kw>
+<kw>joker</kw>
+<kw>gotham</kw>
+<kw>criminal</kw>
+<kw>district-attorney</kw>
+<kw>chaos</kw>
+<kw>fire</kw>
+<kw>vigilante</kw>
+<kw>love</kw>
+<kw>hope</kw>
+</kws>
+</movie>
+<movie>
+<title>Casablanca</title>
+<year>1942</year>
+<rating>8.8</rating>
+<ds>
+<director>
+<name>Michael Curtiz</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Drama</item>
+<item>Romance</item>
+<item>War</item>
+</genres>
+<ws>
+<writer>
+<name>Murray Burnett</name>
+<role>(play "Everybody Comes to Rick's")</role>
+</writer>
+<writer>
+<name>Philip G. Epstein</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Joan Alison</name>
+<role>(play "Everybody Comes to Rick's")</role>
+</writer>
+<writer>
+<name>Howard Koch</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Julius J. Epstein</name>
+<role>(screenplay) (as Julius J.)</role>
+</writer>
+<writer>
+<name>Casey Robinson</name>
+<role>(uncredited)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<mpaa>Rated PG for mild violence.</mpaa>
+<ls>
+<language>English</language>
+<language>French</language>
+<language>German</language>
+</ls>
+<cps>
+<company>Warner Bros. Pictures</company>
+</cps>
+<cast>
+<p>
+<name>Humphrey Bogart</name>
+<role>Rick Blaine</role>
+</p>
+<p>
+<name>Ingrid Bergman</name>
+<role>Ilsa Lund</role>
+</p>
+<p>
+<name>Paul Henreid</name>
+<role>Victor Laszlo</role>
+</p>
+<p>
+<name>Claude Rains</name>
+<role>Capt. Renault</role>
+</p>
+<p>
+<name>Conrad Veidt</name>
+<role>Maj. Strasser</role>
+</p>
+</cast>
+<kws>
+<kw>casablanca</kw>
+<kw>german</kw>
+<kw>police</kw>
+<kw>american-expatriate</kw>
+<kw>freedom</kw>
+<kw>freedom-fighter</kw>
+<kw>nazi</kw>
+<kw>old-flame</kw>
+<kw>love</kw>
+<kw>nightclub</kw>
+</kws>
+</movie>
+<movie>
+<title>Cidade de Deus</title>
+<year>2002</year>
+<rating>8.8</rating>
+<ds>
+<director>
+<name>Kátia Lund</name>
+<role>(co-director)</role>
+</director>
+<director>
+<name>Fernando Meirelles</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Crime</item>
+<item>Drama</item>
+</genres>
+<ws>
+<writer>
+<name>Paulo Lins</name>
+<role>(novel)</role>
+</writer>
+<writer>
+<name>Bráulio Mantovani</name>
+<role>(screenplay)</role>
+</writer>
+</ws>
+<cts>
+<country>Brazil</country>
+<country>France</country>
+</cts>
+<mpaa>Rated R for strong brutal violence, sexuality, drug content and language.</mpaa>
+<ls>
+<language>Portuguese</language>
+</ls>
+<cps>
+<company>O2 Filmes</company>
+<company>VideoFilmes</company>
+<company>Globo Filmes</company>
+<company>Lumiere</company>
+<company>Wild Bunch</company>
+<company>Hank Levine Film</company>
+<company>Lereby Productions</company>
+</cps>
+<cast>
+<p>
+<name>Alexandre Rodrigues</name>
+<role>Buscapé - Rocket</role>
+</p>
+<p>
+<name>Leandro Firmino</name>
+<role>Zé Pequeno - Li'l Zé</role>
+</p>
+<p>
+<name>Phellipe Haagensen</name>
+<role>Bené - Benny</role>
+</p>
+<p>
+<name>Douglas Silva</name>
+<role>Dadinho - Li'l Dice</role>
+</p>
+<p>
+<name>Jonathan Haagensen</name>
+<role>Cabeleira - Shaggy</role>
+</p>
+</cast>
+<kws>
+<kw>photographer</kw>
+<kw>city-of-god</kw>
+<kw>slum</kw>
+<kw>boy</kw>
+<kw>gang</kw>
+<kw>violence</kw>
+<kw>growing-up</kw>
+<kw>brazil</kw>
+<kw>1960s</kw>
+<kw>power</kw>
+</kws>
+</movie>
+<movie>
+<title>Fight Club</title>
+<year>1999</year>
+<rating>8.8</rating>
+<ds>
+<director>
+<name>David Fincher</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Drama</item>
+<item>Mystery</item>
+<item>Thriller</item>
+</genres>
+<ws>
+<writer>
+<name>Jim Uhls</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Chuck Palahniuk</name>
+<role>(novel)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+<country>Germany</country>
+</cts>
+<mpaa>Rated R for disturbing and graphic depiction of violent anti-social behavior, sexuality and language.</mpaa>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>Fox 2000 Pictures</company>
+<company>Regency Enterprises</company>
+<company>Linson Films</company>
+<company>Atman Entertainment</company>
+<company>Knickerbocker Films</company>
+<company>Taurus Film</company>
+</cps>
+<cast>
+<p>
+<name>Edward Norton</name>
+<role>The Narrator</role>
+</p>
+<p>
+<name>Brad Pitt</name>
+<role>Tyler Durden</role>
+</p>
+<p>
+<name>Helena Bonham Carter</name>
+<role>Marla Singer</role>
+</p>
+<p>
+<name>Meat Loaf</name>
+<role>Robert 'Bob' Paulson</role>
+</p>
+<p>
+<name>Zach Grenier</name>
+<role>Richard Chesler</role>
+</p>
+</cast>
+<kws>
+<kw>fight</kw>
+<kw>club</kw>
+<kw>support-group</kw>
+<kw>out-of-control</kw>
+<kw>office</kw>
+<kw>figment-of-imagination</kw>
+<kw>plane-crash</kw>
+<kw>self-harm</kw>
+<kw>meditation</kw>
+<kw>secret-society</kw>
+</kws>
+</movie>
+<movie>
+<title>Goodfellas</title>
+<year>1990</year>
+<rating>8.8</rating>
+<ds>
+<director>
+<name>Martin Scorsese</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Crime</item>
+<item>Drama</item>
+<item>Thriller</item>
+</genres>
+<ws>
+<writer>
+<name>Nicholas Pileggi</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Martin Scorsese</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Nicholas Pileggi</name>
+<role>(book "Wise Guy")</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<ls>
+<language>English</language>
+<language>Italian</language>
+</ls>
+<cps>
+<company>Warner Bros. Pictures</company>
+</cps>
+<cast>
+<p>
+<name>Robert De Niro</name>
+<role>James 'Jimmy' Conway</role>
+</p>
+<p>
+<name>Ray Liotta</name>
+<role>Henry Hill</role>
+</p>
+<p>
+<name>Joe Pesci</name>
+<role>Tommy DeVito</role>
+</p>
+<p>
+<name>Lorraine Bracco</name>
+<role>Karen Hill</role>
+</p>
+<p>
+<name>Paul Sorvino</name>
+<role>Paul Cicero</role>
+</p>
+</cast>
+<kws>
+<kw>gangster</kw>
+<kw>mafia</kw>
+<kw>robbery</kw>
+<kw>new-york</kw>
+<kw>rise-and-fall</kw>
+<kw>1960s</kw>
+<kw>cocaine</kw>
+<kw>murder</kw>
+<kw>irish-italian</kw>
+<kw>organized-crime</kw>
+</kws>
+</movie>
+<movie>
+<title>Shichinin no samurai</title>
+<year>1954</year>
+<rating>8.8</rating>
+<ds>
+<director>
+<name>Akira Kurosawa</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Adventure</item>
+<item>Drama</item>
+</genres>
+<ws>
+<writer>
+<name>Shinobu Hashimoto</name>
+<role>(written by)</role>
+</writer>
+<writer>
+<name>Hideo Oguni</name>
+<role>(written by)</role>
+</writer>
+<writer>
+<name>Akira Kurosawa</name>
+<role>(written by)</role>
+</writer>
+</ws>
+<cts>
+<country>Japan</country>
+</cts>
+<ls>
+<language>Japanese</language>
+</ls>
+<cps>
+<company>Toho Company</company>
+</cps>
+<cast>
+<p>
+<name>Toshirô Mifune</name>
+<role>Kikuchiyo</role>
+</p>
+<p>
+<name>Takashi Shimura</name>
+<role>Kanbê Shimada</role>
+</p>
+<p>
+<name>Keiko Tsushima</name>
+<role>Shino</role>
+</p>
+<p>
+<name>Yukiko Shimazaki</name>
+<role>Rikichi's Wife</role>
+</p>
+<p>
+<name>Kamatari Fujiwara</name>
+<role>Manzô - Father of Shino</role>
+</p>
+</cast>
+<kws>
+<kw>samurai</kw>
+<kw>bandit</kw>
+<kw>farmer</kw>
+<kw>japan</kw>
+<kw>rice</kw>
+<kw>villager</kw>
+<kw>ronin</kw>
+<kw>16th-century</kw>
+<kw>suicide</kw>
+<kw>estranged-wife</kw>
+</kws>
+</movie>
+<movie>
+<title>Star Wars</title>
+<year>1977</year>
+<rating>8.8</rating>
+<ds>
+<director>
+<name>George Lucas</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Action</item>
+<item>Adventure</item>
+<item>Fantasy</item>
+<item>Sci-Fi</item>
+</genres>
+<ws>
+<writer>
+<name>George Lucas</name>
+<role>(written by)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<mpaa>Rated PG for sci-fi violence and brief mild language. (special edition, DVD version)</mpaa>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>Lucasfilm</company>
+<company>Twentieth Century Fox Film Corporation</company>
+</cps>
+<cast>
+<p>
+<name>Mark Hamill</name>
+<role>Luke Skywalker</role>
+</p>
+<p>
+<name>Harrison Ford</name>
+<role>Han Solo</role>
+</p>
+<p>
+<name>Carrie Fisher</name>
+<role>Princess Leia Organa</role>
+</p>
+<p>
+<name>Peter Cushing</name>
+<role>Grand Moff Tarkin</role>
+</p>
+<p>
+<name>Alec Guinness</name>
+<role>Ben Obi-Wan Kenobi</role>
+</p>
+</cast>
+<kws>
+<kw>death-star</kw>
+<kw>empire</kw>
+<kw>planet</kw>
+<kw>galaxy</kw>
+<kw>princess</kw>
+<kw>rebellion</kw>
+<kw>robot</kw>
+<kw>rescue</kw>
+<kw>farm</kw>
+<kw>desert</kw>
+</kws>
+</movie>
+<movie>
+<title>Star Wars: Episode V - The Empire Strikes Back</title>
+<year>1980</year>
+<rating>8.8</rating>
+<ds>
+<director>
+<name>Irvin Kershner</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Action</item>
+<item>Adventure</item>
+<item>Sci-Fi</item>
+</genres>
+<ws>
+<writer>
+<name>George Lucas</name>
+<role>(story)</role>
+</writer>
+<writer>
+<name>Lawrence Kasdan</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Leigh Brackett</name>
+<role>(screenplay)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<mpaa>Rated PG for sci-fi action violence. (special edition, DVD version)</mpaa>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>Lucasfilm</company>
+</cps>
+<cast>
+<p>
+<name>Mark Hamill</name>
+<role>Luke Skywalker</role>
+</p>
+<p>
+<name>Harrison Ford</name>
+<role>Han Solo</role>
+</p>
+<p>
+<name>Carrie Fisher</name>
+<role>Princess Leia</role>
+</p>
+<p>
+<name>Billy Dee Williams</name>
+<role>Lando Calrissian</role>
+</p>
+<p>
+<name>Anthony Daniels</name>
+<role>C-3PO</role>
+</p>
+</cast>
+<kws>
+<kw>princess</kw>
+<kw>empire</kw>
+<kw>rebel</kw>
+<kw>training</kw>
+<kw>rescue</kw>
+<kw>sequel</kw>
+<kw>battle</kw>
+<kw>star-wars</kw>
+<kw>jedi-knight</kw>
+<kw>no-opening-credits</kw>
+</kws>
+</movie>
+<movie>
+<title>The Lord of the Rings: The Fellowship of the Ring</title>
+<year>2001</year>
+<rating>8.8</rating>
+<ds>
+<director>
+<name>Peter Jackson</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Action</item>
+<item>Adventure</item>
+<item>Fantasy</item>
+</genres>
+<ws>
+<writer>
+<name>Fran Walsh</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Philippa Boyens</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Peter Jackson</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>J.R.R. Tolkien</name>
+<role>(novel "The Fellowship of the Ring")</role>
+</writer>
+</ws>
+<cts>
+<country>New Zealand</country>
+<country>USA</country>
+</cts>
+<mpaa>Rated PG-13 for epic battle sequences and some scary images. (also special extended edition)</mpaa>
+<ls>
+<language>English</language>
+<language>Sindarin</language>
+</ls>
+<cps>
+<company>New Line Cinema</company>
+<company>WingNut Films</company>
+<company>The Saul Zaentz Company</company>
+</cps>
+<cast>
+<p>
+<name>Alan Howard</name>
+<role>The Ring</role>
+</p>
+<p>
+<name>Elijah Wood</name>
+<role>Frodo Baggins</role>
+</p>
+<p>
+<name>Noel Appleby</name>
+<role>Everard Proudfoot</role>
+</p>
+<p>
+<name>Sean Astin</name>
+<role>Samwise 'Sam' Gamgee</role>
+</p>
+<p>
+<name>Sala Baker</name>
+<role>Sauron</role>
+</p>
+</cast>
+<kws>
+<kw>ring</kw>
+<kw>hobbit</kw>
+<kw>doom</kw>
+<kw>middle-earth</kw>
+<kw>ancient</kw>
+<kw>quest</kw>
+<kw>epic</kw>
+<kw>elf</kw>
+<kw>dwarf</kw>
+<kw>forest</kw>
+</kws>
+</movie>
+<movie>
+<title>The Lord of the Rings: The Return of the King</title>
+<year>2003</year>
+<rating>8.8</rating>
+<ds>
+<director>
+<name>Peter Jackson</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Action</item>
+<item>Adventure</item>
+<item>Fantasy</item>
+</genres>
+<ws>
+<writer>
+<name>Fran Walsh</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Philippa Boyens</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Peter Jackson</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>J.R.R. Tolkien</name>
+<role>(novel "The Return of the King")</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+<country>New Zealand</country>
+</cts>
+<mpaa>Rated PG-13 for intense epic battle sequences and frightening images. (also extended edition)</mpaa>
+<ls>
+<language>English</language>
+<language>Quenya</language>
+<language>Old English</language>
+<language>Sindarin</language>
+</ls>
+<cps>
+<company>New Line Cinema</company>
+<company>WingNut Films</company>
+<company>The Saul Zaentz Company</company>
+</cps>
+<cast>
+<p>
+<name>Noel Appleby</name>
+<role>Everard Proudfoot</role>
+</p>
+<p>
+<name>Alexandra Astin</name>
+<role>Elanor Gamgee</role>
+</p>
+<p>
+<name>Sean Astin</name>
+<role>Sam</role>
+</p>
+<p>
+<name>David Aston</name>
+<role>Gondorian Soldier 3</role>
+</p>
+<p>
+<name>John Bach</name>
+<role>Madril</role>
+</p>
+</cast>
+<kws>
+<kw>ring</kw>
+<kw>battle</kw>
+<kw>king</kw>
+<kw>middle-earth</kw>
+<kw>army-of-the-dead</kw>
+<kw>suspicion</kw>
+<kw>journey</kw>
+<kw>orc</kw>
+<kw>quest</kw>
+<kw>fate</kw>
+</kws>
+</movie>
+<movie>
+<title>It's a Wonderful Life</title>
+<year>1946</year>
+<rating>8.7</rating>
+<ds>
+<director>
+<name>Frank Capra</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Drama</item>
+<item>Family</item>
+<item>Fantasy</item>
+</genres>
+<ws>
+<writer>
+<name>Jo Swerling</name>
+<role>(additional scenes)</role>
+</writer>
+<writer>
+<name>Philip Van Doren Stern</name>
+<role>(story)</role>
+</writer>
+<writer>
+<name>Albert Hackett</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Frank Capra</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Frances Goodrich</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Michael Wilson</name>
+<role>(contributor to screenplay) (uncredited)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>Liberty Films (II)</company>
+</cps>
+<cast>
+<p>
+<name>James Stewart</name>
+<role>George Bailey</role>
+</p>
+<p>
+<name>Donna Reed</name>
+<role>Mary Hatch</role>
+</p>
+<p>
+<name>Lionel Barrymore</name>
+<role>Henry F. Potter</role>
+</p>
+<p>
+<name>Thomas Mitchell</name>
+<role>Uncle Billy Bailey</role>
+</p>
+<p>
+<name>Henry Travers</name>
+<role>Clarence</role>
+</p>
+</cast>
+<kws>
+<kw>angel</kw>
+<kw>business</kw>
+<kw>christmas</kw>
+<kw>small-town</kw>
+<kw>bank</kw>
+<kw>guardian-angel</kw>
+<kw>love</kw>
+<kw>flashback</kw>
+<kw>building-and-loan</kw>
+<kw>prayer</kw>
+</kws>
+</movie>
+<movie>
+<title>Memento</title>
+<year>2000</year>
+<rating>8.7</rating>
+<ds>
+<director>
+<name>Christopher Nolan</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Crime</item>
+<item>Drama</item>
+<item>Mystery</item>
+<item>Thriller</item>
+</genres>
+<ws>
+<writer>
+<name>Christopher Nolan</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Jonathan Nolan</name>
+<role>(short story "Memento Mori")</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<mpaa>Rated R for violence, language and some drug content.</mpaa>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>Newmarket Capital Group</company>
+<company>Team Todd</company>
+<company>I Remember Productions</company>
+<company>Summit Entertainment</company>
+</cps>
+<cast>
+<p>
+<name>Guy Pearce</name>
+<role>Leonard</role>
+</p>
+<p>
+<name>Carrie-Anne Moss</name>
+<role>Natalie</role>
+</p>
+<p>
+<name>Joe Pantoliano</name>
+<role>Teddy Gammell</role>
+</p>
+<p>
+<name>Mark Boone Junior</name>
+<role>Burt</role>
+</p>
+<p>
+<name>Russ Fega</name>
+<role>Waiter</role>
+</p>
+</cast>
+<kws>
+<kw>memory</kw>
+<kw>short-term-memory</kw>
+<kw>murder</kw>
+<kw>short-term-memory-loss</kw>
+<kw>polaroid</kw>
+<kw>telephone</kw>
+<kw>memento</kw>
+<kw>tattoo</kw>
+<kw>flashback</kw>
+<kw>backwards</kw>
+</kws>
+</movie>
+<movie>
+<title>Psycho</title>
+<year>1960</year>
+<rating>8.7</rating>
+<ds>
+<director>
+<name>Alfred Hitchcock</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Horror</item>
+<item>Mystery</item>
+<item>Thriller</item>
+<item>Thriller</item>
+</genres>
+<ws>
+<writer>
+<name>Robert Bloch</name>
+<role>(novel)</role>
+</writer>
+<writer>
+<name>Joseph Stefano</name>
+<role>(screenplay)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>Shamley Productions</company>
+</cps>
+<cast>
+<p>
+<name>Anthony Perkins</name>
+<role>Norman Bates</role>
+</p>
+<p>
+<name>Vera Miles</name>
+<role>Lila Crane</role>
+</p>
+<p>
+<name>John Gavin</name>
+<role>Sam Loomis</role>
+</p>
+<p>
+<name>Janet Leigh</name>
+<role>Marion Crane</role>
+</p>
+<p>
+<name>Martin Balsam</name>
+<role>Det. Milton Arbogast</role>
+</p>
+</cast>
+<kws>
+<kw>motel</kw>
+<kw>money</kw>
+<kw>shower</kw>
+<kw>california</kw>
+<kw>alimony</kw>
+<kw>rain</kw>
+<kw>phoenix-arizona</kw>
+<kw>private-detective</kw>
+<kw>good-versus-evil</kw>
+<kw>matricide</kw>
+</kws>
+</movie>
+<movie>
+<title>Raiders of the Lost Ark</title>
+<year>1981</year>
+<rating>8.7</rating>
+<ds>
+<director>
+<name>Steven Spielberg</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Action</item>
+<item>Adventure</item>
+</genres>
+<ws>
+<writer>
+<name>George Lucas</name>
+<role>(story)</role>
+</writer>
+<writer>
+<name>Philip Kaufman</name>
+<role>(story)</role>
+</writer>
+<writer>
+<name>Lawrence Kasdan</name>
+<role>(screenplay)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<ls>
+<language>English</language>
+<language>German</language>
+<language>Hebrew</language>
+<language>Spanish</language>
+<language>Arabic</language>
+<language>Nepali</language>
+</ls>
+<cps>
+<company>Paramount Pictures</company>
+<company>Lucasfilm</company>
+</cps>
+<cast>
+<p>
+<name>Harrison Ford</name>
+<role>Indiana Jones</role>
+</p>
+<p>
+<name>Karen Allen</name>
+<role>Marion Ravenwood</role>
+</p>
+<p>
+<name>Paul Freeman</name>
+<role>Dr. René Belloq</role>
+</p>
+<p>
+<name>Ronald Lacey</name>
+<role>Major Arnold Toht</role>
+</p>
+<p>
+<name>John Rhys-Davies</name>
+<role>Sallah</role>
+</p>
+</cast>
+<kws>
+<kw>nazi</kw>
+<kw>escape</kw>
+<kw>ark-of-the-covenant</kw>
+<kw>professor</kw>
+<kw>archeologist</kw>
+<kw>statue</kw>
+<kw>nepal</kw>
+<kw>archeology</kw>
+<kw>german</kw>
+<kw>idol</kw>
+</kws>
+</movie>
+<movie>
+<title>Rear Window</title>
+<year>1954</year>
+<rating>8.7</rating>
+<ds>
+<director>
+<name>Alfred Hitchcock</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Crime</item>
+<item>Mystery</item>
+<item>Romance</item>
+<item>Thriller</item>
+</genres>
+<ws>
+<writer>
+<name>Cornell Woolrich</name>
+<role>(short story "It Had to Be Murder")</role>
+</writer>
+<writer>
+<name>John Michael Hayes</name>
+<role>(screenplay)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>Paramount Pictures</company>
+<company>Patron Inc.</company>
+</cps>
+<cast>
+<p>
+<name>James Stewart</name>
+<role>L.B. 'Jeff' Jeffries</role>
+</p>
+<p>
+<name>Grace Kelly</name>
+<role>Lisa Carol Fremont</role>
+</p>
+<p>
+<name>Wendell Corey</name>
+<role>Det. Lt. Thomas J. Doyle</role>
+</p>
+<p>
+<name>Thelma Ritter</name>
+<role>Stella</role>
+</p>
+<p>
+<name>Raymond Burr</name>
+<role>Lars Thorwald</role>
+</p>
+</cast>
+<kws>
+<kw>apartment</kw>
+<kw>neighbor</kw>
+<kw>salesman</kw>
+<kw>window</kw>
+<kw>photographer</kw>
+<kw>nurse</kw>
+<kw>invalid</kw>
+<kw>wheelchair</kw>
+<kw>broken-leg</kw>
+<kw>newlywed</kw>
+</kws>
+</movie>
+<movie>
+<title>Se7en</title>
+<year>1995</year>
+<rating>8.7</rating>
+<ds>
+<director>
+<name>David Fincher</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Crime</item>
+<item>Drama</item>
+<item>Mystery</item>
+<item>Thriller</item>
+</genres>
+<ws>
+<writer>
+<name>Andrew Kevin Walker</name>
+<role>(written by)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<mpaa>Rated R for grisly afterviews of horrific and bizarre killings, and for strong language.</mpaa>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>New Line Cinema</company>
+</cps>
+<cast>
+<p>
+<name>Brad Pitt</name>
+<role>Detective David Mills</role>
+</p>
+<p>
+<name>Morgan Freeman</name>
+<role>Detective Lt. William Somerset</role>
+</p>
+<p>
+<name>Gwyneth Paltrow</name>
+<role>Tracy Mills</role>
+</p>
+<p>
+<name>R. Lee Ermey</name>
+<role>Police Captain</role>
+</p>
+<p>
+<name>Andrew Kevin Walker</name>
+<role>Dead Man</role>
+</p>
+</cast>
+<kws>
+<kw>detective</kw>
+<kw>seven-deadly-sins</kw>
+<kw>serial-killer</kw>
+<kw>gluttony</kw>
+<kw>spaghetti</kw>
+<kw>body-shaving</kw>
+<kw>offscreen-killing</kw>
+<kw>freeze-frame</kw>
+<kw>forced-eating</kw>
+<kw>tragedy</kw>
+</kws>
+</movie>
+<movie>
+<title>The Lord of the Rings: The Two Towers</title>
+<year>2002</year>
+<rating>8.7</rating>
+<ds>
+<director>
+<name>Peter Jackson</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Action</item>
+<item>Adventure</item>
+<item>Fantasy</item>
+</genres>
+<ws>
+<writer>
+<name>Fran Walsh</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Philippa Boyens</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Stephen Sinclair</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Peter Jackson</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>J.R.R. Tolkien</name>
+<role>(novel "The Two Towers")</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+<country>New Zealand</country>
+</cts>
+<mpaa>Rated PG-13 for epic battle sequences and scary images. (also special extended edition)</mpaa>
+<ls>
+<language>English</language>
+<language>Sindarin</language>
+<language>Old English</language>
+</ls>
+<cps>
+<company>New Line Cinema</company>
+<company>WingNut Films</company>
+<company>The Saul Zaentz Company</company>
+</cps>
+<cast>
+<p>
+<name>Bruce Allpress</name>
+<role>Aldor</role>
+</p>
+<p>
+<name>Sean Astin</name>
+<role>Samwise 'Sam' Gamgee</role>
+</p>
+<p>
+<name>John Bach</name>
+<role>Madril</role>
+</p>
+<p>
+<name>Sala Baker</name>
+<role>Man Flesh Uruk</role>
+</p>
+<p>
+<name>Cate Blanchett</name>
+<role>Galadriel</role>
+</p>
+</cast>
+<kws>
+<kw>ring</kw>
+<kw>army</kw>
+<kw>middle-earth</kw>
+<kw>mission</kw>
+<kw>attack</kw>
+<kw>hope</kw>
+<kw>tower</kw>
+<kw>king</kw>
+<kw>wizard</kw>
+<kw>guide</kw>
+</kws>
+</movie>
+<movie>
+<title>The Matrix</title>
+<year>1999</year>
+<rating>8.7</rating>
+<ds>
+<director>
+<name>Andy Wachowski</name>
+<role>(as The Wachowski Brothers)</role>
+</director>
+<director>
+<name>Lana Wachowski</name>
+<role>(as The Wachowski Brothers)</role>
+</director>
+</ds>
+<genres>
+<item>Action</item>
+<item>Adventure</item>
+<item>Adventure</item>
+<item>Adventure</item>
+<item>Sci-Fi</item>
+</genres>
+<ws>
+<writer>
+<name>Lana Wachowski</name>
+<role>(written by) (as The Wachowski Brothers)</role>
+</writer>
+<writer>
+<name>Andy Wachowski</name>
+<role>(written by) (as The Wachowski Brothers)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+<country>Australia</country>
+</cts>
+<mpaa>Rated R for sci-fi violence and brief language.</mpaa>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>Groucho II Film Partnership</company>
+<company>Silver Pictures</company>
+<company>Village Roadshow Pictures</company>
+<company>Warner Bros. Pictures</company>
+</cps>
+<cast>
+<p>
+<name>Keanu Reeves</name>
+<role>Neo</role>
+</p>
+<p>
+<name>Laurence Fishburne</name>
+<role>Morpheus</role>
+</p>
+<p>
+<name>Carrie-Anne Moss</name>
+<role>Trinity</role>
+</p>
+<p>
+<name>Hugo Weaving</name>
+<role>Agent Smith</role>
+</p>
+<p>
+<name>Gloria Foster</name>
+<role>Oracle</role>
+</p>
+</cast>
+<kws>
+<kw>computer</kw>
+<kw>hacker</kw>
+<kw>the-matrix</kw>
+<kw>computer-hacker</kw>
+<kw>reality</kw>
+<kw>truth</kw>
+<kw>messiah</kw>
+<kw>software</kw>
+<kw>programmer</kw>
+<kw>computer-program</kw>
+</kws>
+</movie>
+<movie>
+<title>The Silence of the Lambs</title>
+<year>1991</year>
+<rating>8.7</rating>
+<ds>
+<director>
+<name>Jonathan Demme</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Crime</item>
+<item>Thriller</item>
+</genres>
+<ws>
+<writer>
+<name>Ted Tally</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Thomas Harris</name>
+<role>(novel "The Silence of the Lambs")</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>Orion Pictures Corporation</company>
+<company>Strong Heart/Demme Production</company>
+</cps>
+<cast>
+<p>
+<name>Jodie Foster</name>
+<role>Clarice Starling</role>
+</p>
+<p>
+<name>Scott Glenn</name>
+<role>Jack Crawford</role>
+</p>
+<p>
+<name>Anthony Hopkins</name>
+<role>Dr. Hannibal Lecter</role>
+</p>
+<p>
+<name>Ted Levine</name>
+<role>Jame 'Buffalo Bill' Gumb</role>
+</p>
+<p>
+<name>Brooke Smith</name>
+<role>Catherine Martin</role>
+</p>
+</cast>
+<kws>
+<kw>fbi</kw>
+<kw>serial-killer</kw>
+<kw>psychiatrist</kw>
+<kw>agent</kw>
+<kw>psychopath</kw>
+<kw>kidnapping</kw>
+<kw>cannibal</kw>
+<kw>fbi-trainee</kw>
+<kw>traumatic-childhood</kw>
+<kw>semen</kw>
+</kws>
+</movie>
+<movie>
+<title>The Usual Suspects</title>
+<year>1995</year>
+<rating>8.7</rating>
+<ds>
+<director>
+<name>Bryan Singer</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Crime</item>
+<item>Mystery</item>
+<item>Thriller</item>
+</genres>
+<ws>
+<writer>
+<name>Christopher McQuarrie</name>
+<role>(written by)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+<country>Germany</country>
+</cts>
+<mpaa>Rated R for violence and a substantial amount of strong language.</mpaa>
+<ls>
+<language>English</language>
+<language>Hungarian</language>
+<language>Spanish</language>
+<language>French</language>
+</ls>
+<cps>
+<company>PolyGram Filmed Entertainment</company>
+<company>Spelling Films International</company>
+<company>Blue Parrot</company>
+<company>Bad Hat Harry Productions</company>
+<company>Rosco Film GmbH</company>
+</cps>
+<cast>
+<p>
+<name>Stephen Baldwin</name>
+<role>Michael McManus</role>
+</p>
+<p>
+<name>Gabriel Byrne</name>
+<role>Dean Keaton</role>
+</p>
+<p>
+<name>Benicio Del Toro</name>
+<role>Fred Fenster</role>
+</p>
+<p>
+<name>Kevin Pollak</name>
+<role>Todd Hockney</role>
+</p>
+<p>
+<name>Kevin Spacey</name>
+<role>Roger 'Verbal' Kint</role>
+</p>
+</cast>
+<kws>
+<kw>criminal</kw>
+<kw>suspect</kw>
+<kw>explosion</kw>
+<kw>revenge</kw>
+<kw>hungarian</kw>
+<kw>criminal-mastermind</kw>
+<kw>lawyer</kw>
+<kw>los-angeles-california</kw>
+<kw>splatter</kw>
+<kw>rape</kw>
+</kws>
+</movie>
+<movie>
+<title>Toy Story 3</title>
+<year>2010</year>
+<rating>8.7</rating>
+<ds>
+<director>
+<name>Lee Unkrich</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Animation</item>
+<item>Adventure</item>
+<item>Comedy</item>
+<item>Family</item>
+<item>Fantasy</item>
+</genres>
+<ws>
+<writer>
+<name>Andrew Stanton</name>
+<role>(story)</role>
+</writer>
+<writer>
+<name>Michael Arndt</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Lee Unkrich</name>
+<role>(story)</role>
+</writer>
+<writer>
+<name>John Lasseter</name>
+<role>(story)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<ls>
+<language>English</language>
+<language>Spanish</language>
+</ls>
+<cps>
+<company>Pixar Animation Studios</company>
+<company>Walt Disney Pictures</company>
+</cps>
+<cast>
+<p>
+<name>Tom Hanks</name>
+<role>Woody</role>
+</p>
+<p>
+<name>Tim Allen</name>
+<role>Buzz Lightyear</role>
+</p>
+<p>
+<name>Joan Cusack</name>
+<role>Jessie</role>
+</p>
+<p>
+<name>Ned Beatty</name>
+<role>Lotso</role>
+</p>
+<p>
+<name>Don Rickles</name>
+<role>Mr. Potato Head</role>
+</p>
+</cast>
+<kws>
+<kw>toy</kw>
+<kw>college</kw>
+<kw>escape</kw>
+<kw>day-care</kw>
+<kw>day-care-center</kw>
+<kw>teddy-bear</kw>
+<kw>children</kw>
+<kw>rose-held-between-teeth</kw>
+<kw>barbie</kw>
+<kw>spanish</kw>
+</kws>
+</movie>
+<movie>
+<title>American Beauty</title>
+<year>1999</year>
+<rating>8.6</rating>
+<ds>
+<director>
+<name>Sam Mendes</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Drama</item>
+</genres>
+<ws>
+<writer>
+<name>Alan Ball</name>
+<role>(written by)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<mpaa>Rated R for strong sexuality, language, violence and drug content.</mpaa>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>DreamWorks SKG</company>
+<company>Jinks/Cohen Company</company>
+</cps>
+<cast>
+<p>
+<name>Kevin Spacey</name>
+<role>Lester Burnham</role>
+</p>
+<p>
+<name>Annette Bening</name>
+<role>Carolyn Burnham</role>
+</p>
+<p>
+<name>Thora Birch</name>
+<role>Jane Burnham</role>
+</p>
+<p>
+<name>Wes Bentley</name>
+<role>Ricky Fitts</role>
+</p>
+<p>
+<name>Mena Suvari</name>
+<role>Angela Hayes</role>
+</p>
+</cast>
+<kws>
+<kw>friendship</kw>
+<kw>fast-food-restaurant</kw>
+<kw>infatuation</kw>
+<kw>cheerleader</kw>
+<kw>cheerleading</kw>
+<kw>high-school</kw>
+<kw>drug</kw>
+<kw>real-estate-agent</kw>
+<kw>love</kw>
+<kw>rose</kw>
+</kws>
+</movie>
+<movie>
+<title>American History X</title>
+<year>1998</year>
+<rating>8.6</rating>
+<ds>
+<director>
+<name>Tony Kaye</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Crime</item>
+<item>Drama</item>
+</genres>
+<ws>
+<writer>
+<name>David McKenna</name>
+<role>(written by)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<mpaa>Rated R for graphic brutal violence including rape, pervasive language, strong sexuality and nudity.</mpaa>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>New Line Cinema</company>
+<company>Savoy Pictures</company>
+<company>Turman-Morrissey Company, The</company>
+</cps>
+<cast>
+<p>
+<name>Edward Norton</name>
+<role>Derek Vinyard</role>
+</p>
+<p>
+<name>Edward Furlong</name>
+<role>Danny Vinyard</role>
+</p>
+<p>
+<name>Beverly D'Angelo</name>
+<role>Doris Vinyard</role>
+</p>
+<p>
+<name>Avery Brooks</name>
+<role>Dr. Bob Sweeney</role>
+</p>
+<p>
+<name>Jennifer Lien</name>
+<role>Davina Vinyard</role>
+</p>
+</cast>
+<kws>
+<kw>prison</kw>
+<kw>skinhead</kw>
+<kw>neo-nazi</kw>
+<kw>gang</kw>
+<kw>hatred</kw>
+<kw>white-supremacist</kw>
+<kw>racism</kw>
+<kw>murder</kw>
+<kw>interrupted-sex</kw>
+<kw>hate-crime</kw>
+</kws>
+</movie>
+<movie>
+<title>Apocalypse Now</title>
+<year>1979</year>
+<rating>8.6</rating>
+<ds>
+<director>
+<name>Francis Ford Coppola</name>
+<role>(as Francis Coppola)</role>
+</director>
+</ds>
+<genres>
+<item>Drama</item>
+<item>War</item>
+</genres>
+<ws>
+<writer>
+<name>John Milius</name>
+<role>(written by)</role>
+</writer>
+<writer>
+<name>Michael Herr</name>
+<role>(narration)</role>
+</writer>
+<writer>
+<name>Francis Ford Coppola</name>
+<role>(written by)</role>
+</writer>
+<writer>
+<name>Joseph Conrad</name>
+<role>(novel "Heart of Darkness") (uncredited)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<mpaa>Rated R for disturbing violent images, language, sexual content and some drug use. (2001 director's cut)</mpaa>
+<ls>
+<language>English</language>
+<language>French</language>
+<language>Vietnamese</language>
+<language>Khmer</language>
+</ls>
+<cps>
+<company>Zoetrope Studios</company>
+</cps>
+<cast>
+<p>
+<name>Marlon Brando</name>
+<role>Colonel Walter E. Kurtz</role>
+</p>
+<p>
+<name>Martin Sheen</name>
+<role>Captain Benjamin L. Willard</role>
+</p>
+<p>
+<name>Robert Duvall</name>
+<role>Lieutenant Colonel Bill Kilgore</role>
+</p>
+<p>
+<name>Frederic Forrest</name>
+<role>Jay 'Chef' Hicks</role>
+</p>
+<p>
+<name>Sam Bottoms</name>
+<role>Lance B. Johnson</role>
+</p>
+</cast>
+<kws>
+<kw>colonel</kw>
+<kw>jungle</kw>
+<kw>army</kw>
+<kw>boat</kw>
+<kw>vietnam</kw>
+<kw>captain</kw>
+<kw>green-beret</kw>
+<kw>river</kw>
+<kw>vietnam-war</kw>
+<kw>navy</kw>
+</kws>
+</movie>
+<movie>
+<title>Citizen Kane</title>
+<year>1941</year>
+<rating>8.6</rating>
+<ds>
+<director>
+<name>Orson Welles</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Drama</item>
+<item>Mystery</item>
+</genres>
+<ws>
+<writer>
+<name>Orson Welles</name>
+<role>(original screenplay)</role>
+</writer>
+<writer>
+<name>Roger Q. Denny</name>
+<role>(contributing writer) (uncredited)</role>
+</writer>
+<writer>
+<name>John Houseman</name>
+<role>(contributing writer) (uncredited)</role>
+</writer>
+<writer>
+<name>Mollie Kent</name>
+<role>(contributing writer) (uncredited)</role>
+</writer>
+<writer>
+<name>Herman J. Mankiewicz</name>
+<role>(original screenplay)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>Mercury Productions</company>
+<company>RKO Radio Pictures</company>
+</cps>
+<cast>
+<p>
+<name>Joseph Cotten</name>
+<role>Jedediah Leland</role>
+</p>
+<p>
+<name>Dorothy Comingore</name>
+<role>Susan Alexander Kane</role>
+</p>
+<p>
+<name>Agnes Moorehead</name>
+<role>Mary Kane</role>
+</p>
+<p>
+<name>Ruth Warrick</name>
+<role>Emily Monroe Norton Kane</role>
+</p>
+<p>
+<name>Ray Collins</name>
+<role>James W. Gettys</role>
+</p>
+</cast>
+<kws>
+<kw>rosebud</kw>
+<kw>reporter</kw>
+<kw>newspaper</kw>
+<kw>last-words</kw>
+<kw>xanadu</kw>
+<kw>estate</kw>
+<kw>power</kw>
+<kw>flashback</kw>
+<kw>money</kw>
+<kw>mansion</kw>
+</kws>
+</movie>
+<movie>
+<title>How I Learned to Stop Worrying and Love the Bomb</title>
+<year>1964</year>
+<rating>8.6</rating>
+<ds>
+<director>
+<name>Stanley Kubrick</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Comedy</item>
+<item>Drama</item>
+</genres>
+<ws>
+<writer>
+<name>Peter George</name>
+<role>(book "Red Alert")</role>
+</writer>
+<writer>
+<name>Terry Southern</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Peter George</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Stanley Kubrick</name>
+<role>(screenplay)</role>
+</writer>
+</ws>
+<cts>
+<country>UK</country>
+</cts>
+<mpaa>Rated PG for thematic elements, some violent content, sexual humor and mild language. (2005 re-rating)</mpaa>
+<ls>
+<language>English</language>
+<language>Russian</language>
+</ls>
+<cps>
+<company>Columbia Pictures Corporation</company>
+<company>Hawk Films</company>
+</cps>
+<cast>
+<p>
+<name>Peter Sellers</name>
+<role>Group Captain Lionel Mandrake / President Merkin Muffley / Dr. Strangelove</role>
+</p>
+<p>
+<name>George C. Scott</name>
+<role>General 'Buck' Turgidson</role>
+</p>
+<p>
+<name>Sterling Hayden</name>
+<role>Brigadier General Jack Ripper</role>
+</p>
+<p>
+<name>Keenan Wynn</name>
+<role>Colonel 'Bat' Guano</role>
+</p>
+<p>
+<name>Slim Pickens</name>
+<role>Major 'King' Kong</role>
+</p>
+</cast>
+<kws>
+<kw>general</kw>
+<kw>war-room</kw>
+<kw>bomber</kw>
+<kw>doomsday</kw>
+<kw>u.s.-president</kw>
+<kw>precious-bodily-fluids</kw>
+<kw>captain</kw>
+<kw>nazi</kw>
+<kw>nuclear-attack</kw>
+<kw>doomsday-machine</kw>
+</kws>
+</movie>
+<movie>
+<title>Forrest Gump</title>
+<year>1994</year>
+<rating>8.6</rating>
+<ds>
+<director>
+<name>Robert Zemeckis</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Drama</item>
+<item>Romance</item>
+</genres>
+<ws>
+<writer>
+<name>Eric Roth</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Winston Groom</name>
+<role>(novel)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<mpaa>Rated PG-13 for drug content, some sensuality and war violence.</mpaa>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>Paramount Pictures</company>
+</cps>
+<cast>
+<p>
+<name>Tom Hanks</name>
+<role>Forrest Gump</role>
+</p>
+<p>
+<name>Robin Wright</name>
+<role>Jenny Curran</role>
+</p>
+<p>
+<name>Gary Sinise</name>
+<role>Lt. Dan Taylor</role>
+</p>
+<p>
+<name>Mykelti Williamson</name>
+<role>Pvt. Benjamin Buford 'Bubba' Blue</role>
+</p>
+<p>
+<name>Sally Field</name>
+<role>Mrs. Gump</role>
+</p>
+</cast>
+<kws>
+<kw>vietnam</kw>
+<kw>shrimp</kw>
+<kw>1950s</kw>
+<kw>fishing</kw>
+<kw>bus-stop</kw>
+<kw>1970s</kw>
+<kw>destiny</kw>
+<kw>table-tennis</kw>
+<kw>simple-man</kw>
+<kw>bus</kw>
+</kws>
+</movie>
+<movie>
+<title>Le fabuleux destin d'Amélie Poulain</title>
+<year>2001</year>
+<rating>8.6</rating>
+<ds>
+<director>
+<name>Jean-Pierre Jeunet</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Comedy</item>
+<item>Fantasy</item>
+<item>Romance</item>
+</genres>
+<ws>
+<writer>
+<name>Guillaume Laurant</name>
+<role>(dialogue)</role>
+</writer>
+<writer>
+<name>Jean-Pierre Jeunet</name>
+<role>(scenario)</role>
+</writer>
+<writer>
+<name>Guillaume Laurant</name>
+<role>(scenario)</role>
+</writer>
+</ws>
+<cts>
+<country>France</country>
+<country>Germany</country>
+</cts>
+<mpaa>Rated R for sexual content.</mpaa>
+<ls>
+<language>French</language>
+<language>Russian</language>
+</ls>
+<cps>
+<company>Claudie Ossard Productions</company>
+<company>Union Générale Cinématographique (UGC)</company>
+<company>Victoires Productions</company>
+<company>Tapioca Films</company>
+<company>France 3 Cinéma</company>
+<company>MMC Independent</company>
+<company>Sofica Sofinergie 5</company>
+<company>Filmstiftung Nordrhein-Westfalen</company>
+<company>Canal+</company>
+</cps>
+<cast>
+<p>
+<name>Audrey Tautou</name>
+<role>Amélie Poulain</role>
+</p>
+<p>
+<name>Mathieu Kassovitz</name>
+<role>Nino Quincampoix</role>
+</p>
+<p>
+<name>Rufus</name>
+<role>Raphaël Poulain</role>
+</p>
+<p>
+<name>Lorella Cravotta</name>
+<role>Amandine Poulain</role>
+</p>
+<p>
+<name>Serge Merlin</name>
+<role>Raymond Dufayel</role>
+</p>
+</cast>
+<kws>
+<kw>love</kw>
+<kw>waitress</kw>
+<kw>garden-gnome</kw>
+<kw>happiness</kw>
+<kw>hypochondriac</kw>
+<kw>justice</kw>
+<kw>quebec-canada</kw>
+<kw>father-daughter-relationship</kw>
+<kw>video-camera</kw>
+<kw>breasts</kw>
+</kws>
+</movie>
+<movie>
+<title>Léon</title>
+<year>1994</year>
+<rating>8.6</rating>
+<ds>
+<director>
+<name>Luc Besson</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Crime</item>
+<item>Drama</item>
+<item>Thriller</item>
+</genres>
+<ws>
+<writer>
+<name>Luc Besson</name>
+<role>(writer)</role>
+</writer>
+</ws>
+<cts>
+<country>France</country>
+</cts>
+<mpaa>Rated R for scenes of strong graphic violence, and for language.</mpaa>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>Gaumont</company>
+<company>Les Films du Dauphin</company>
+</cps>
+<cast>
+<p>
+<name>Jean Reno</name>
+<role>Léon</role>
+</p>
+<p>
+<name>Gary Oldman</name>
+<role>Stansfield</role>
+</p>
+<p>
+<name>Natalie Portman</name>
+<role>Mathilda</role>
+</p>
+<p>
+<name>Danny Aiello</name>
+<role>Tony</role>
+</p>
+<p>
+<name>Peter Appel</name>
+<role>Malky</role>
+</p>
+</cast>
+<kws>
+<kw>drugs</kw>
+<kw>revenge</kw>
+<kw>neighbor</kw>
+<kw>hitman</kw>
+<kw>apartment</kw>
+<kw>plant</kw>
+<kw>crooked-cop</kw>
+<kw>love</kw>
+<kw>friendship</kw>
+<kw>assassin</kw>
+</kws>
+</movie>
+<movie>
+<title>Sen to Chihiro no kamikakushi</title>
+<year>2001</year>
+<rating>8.6</rating>
+<ds>
+<director>
+<name>Hayao Miyazaki</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Animation</item>
+<item>Adventure</item>
+<item>Family</item>
+<item>Fantasy</item>
+</genres>
+<ws>
+<writer>
+<name>Hayao Miyazaki</name>
+<role>(written by)</role>
+</writer>
+</ws>
+<cts>
+<country>Japan</country>
+</cts>
+<mpaa>Rated PG for some scary moments.</mpaa>
+<ls>
+<language>Japanese</language>
+</ls>
+<cps>
+<company>Studio Ghibli</company>
+<company>Nippon Television Network Corporation (NTV)</company>
+<company>DENTSU Music And Entertainment</company>
+<company>Tokuma Shoten</company>
+<company>Buena Vista International</company>
+<company>Tohokushinsha Film</company>
+<company>Mitsubishi Commercial Affairs</company>
+</cps>
+<cast>
+<p>
+<name>Rumi Hîragi</name>
+<role>Chihiro / Sen</role>
+</p>
+<p>
+<name>Miyu Irino</name>
+<role>Haku</role>
+</p>
+<p>
+<name>Mari Natsuki</name>
+<role>Yubaba / Zeniba</role>
+</p>
+<p>
+<name>Takashi Naitô</name>
+<role>Chihiro no otôsan</role>
+</p>
+<p>
+<name>Yasuko Sawaguchi</name>
+<role>Chihiro no okâsan</role>
+</p>
+</cast>
+<kws>
+<kw>god</kw>
+<kw>bathhouse</kw>
+<kw>spirit</kw>
+<kw>pig</kw>
+<kw>car</kw>
+<kw>river</kw>
+<kw>10-year-old</kw>
+<kw>animal</kw>
+<kw>water</kw>
+<kw>girl</kw>
+</kws>
+</movie>
+<movie>
+<title>Taxi Driver</title>
+<year>1976</year>
+<rating>8.6</rating>
+<ds>
+<director>
+<name>Martin Scorsese</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Drama</item>
+<item>Thriller</item>
+</genres>
+<ws>
+<writer>
+<name>Paul Schrader</name>
+<role>(written by)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>Columbia Pictures Corporation</company>
+<company>Bill/Phillips</company>
+<company>Italo/Judeo Productions</company>
+</cps>
+<cast>
+<p>
+<name>Robert De Niro</name>
+<role>Travis Bickle</role>
+</p>
+<p>
+<name>Jodie Foster</name>
+<role>Iris</role>
+</p>
+<p>
+<name>Albert Brooks</name>
+<role>Tom</role>
+</p>
+<p>
+<name>Harvey Keitel</name>
+<role>Matthew 'Sport' Higgins</role>
+</p>
+<p>
+<name>Leonard Harris</name>
+<role>Charles Palantine</role>
+</p>
+</cast>
+<kws>
+<kw>prostitute</kw>
+<kw>new-york-city</kw>
+<kw>loner</kw>
+<kw>insomnia</kw>
+<kw>pimp</kw>
+<kw>date</kw>
+<kw>pornography</kw>
+<kw>gunman</kw>
+<kw>vietnam-vet</kw>
+<kw>taxi</kw>
+</kws>
+</movie>
+<movie>
+<title>A Clockwork Orange</title>
+<year>1971</year>
+<rating>8.5</rating>
+<ds>
+<director>
+<name>Stanley Kubrick</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Crime</item>
+<item>Drama</item>
+<item>Sci-Fi</item>
+</genres>
+<ws>
+<writer>
+<name>Anthony Burgess</name>
+<role>(novel)</role>
+</writer>
+<writer>
+<name>Stanley Kubrick</name>
+<role>(screenplay)</role>
+</writer>
+</ws>
+<cts>
+<country>UK</country>
+<country>USA</country>
+</cts>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>Warner Bros. Pictures</company>
+<company>Hawk Films</company>
+</cps>
+<cast>
+<p>
+<name>Malcolm McDowell</name>
+<role>Alex / Alexander DeLarge / Alex Burgess</role>
+</p>
+<p>
+<name>Patrick Magee</name>
+<role>Mr. Frank Alexander</role>
+</p>
+<p>
+<name>Michael Bates</name>
+<role>Chief Guard Barnes</role>
+</p>
+<p>
+<name>Warren Clarke</name>
+<role>Dim</role>
+</p>
+<p>
+<name>John Clive</name>
+<role>Stage Actor</role>
+</p>
+</cast>
+<kws>
+<kw>britain</kw>
+<kw>violence</kw>
+<kw>aversion-therapy</kw>
+<kw>gang</kw>
+<kw>rape</kw>
+<kw>prison</kw>
+<kw>murder</kw>
+<kw>future</kw>
+<kw>beating</kw>
+<kw>experiment</kw>
+</kws>
+</movie>
+<movie>
+<title>Alien</title>
+<year>1979</year>
+<rating>8.5</rating>
+<ds>
+<director>
+<name>Ridley Scott</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Adventure</item>
+<item>Horror</item>
+<item>Sci-Fi</item>
+<item>Thriller</item>
+</genres>
+<ws>
+<writer>
+<name>Dan O'Bannon</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Ronald Shusett</name>
+<role>(story)</role>
+</writer>
+<writer>
+<name>Dan O'Bannon</name>
+<role>(story)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+<country>UK</country>
+</cts>
+<mpaa>Rated R for sci-fi violence/gore and language. (director's cut)</mpaa>
+<ls>
+<language>English</language>
+<language>Spanish</language>
+</ls>
+<cps>
+<company>Brandywine Productions</company>
+<company>Twentieth Century-Fox Productions</company>
+</cps>
+<cast>
+<p>
+<name>Tom Skerritt</name>
+<role>Dallas</role>
+</p>
+<p>
+<name>Sigourney Weaver</name>
+<role>Ripley</role>
+</p>
+<p>
+<name>Veronica Cartwright</name>
+<role>Lambert</role>
+</p>
+<p>
+<name>Harry Dean Stanton</name>
+<role>Brett</role>
+</p>
+<p>
+<name>John Hurt</name>
+<role>Kane</role>
+</p>
+</cast>
+<kws>
+<kw>alien</kw>
+<kw>spaceship</kw>
+<kw>egg</kw>
+<kw>parasite</kw>
+<kw>creature</kw>
+<kw>deep-space</kw>
+<kw>warning</kw>
+<kw>computer</kw>
+<kw>mission</kw>
+<kw>colony</kw>
+</kws>
+</movie>
+<movie>
+<title>Aliens</title>
+<year>1986</year>
+<rating>8.5</rating>
+<ds>
+<director>
+<name>James Cameron</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Action</item>
+<item>Sci-Fi</item>
+<item>Thriller</item>
+</genres>
+<ws>
+<writer>
+<name>Dan O'Bannon</name>
+<role>(characters)</role>
+</writer>
+<writer>
+<name>James Cameron</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>David Giler</name>
+<role>(story)</role>
+</writer>
+<writer>
+<name>Ronald Shusett</name>
+<role>(characters)</role>
+</writer>
+<writer>
+<name>Walter Hill</name>
+<role>(story)</role>
+</writer>
+<writer>
+<name>James Cameron</name>
+<role>(story)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+<country>UK</country>
+</cts>
+<mpaa>Rated R for monster violence, and for language. (1992 special edition)</mpaa>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>Twentieth Century Fox Film Corporation</company>
+<company>Brandywine Productions</company>
+<company>SLM Production Group</company>
+</cps>
+<cast>
+<p>
+<name>Sigourney Weaver</name>
+<role>Ellen Ripley</role>
+</p>
+<p>
+<name>William Hope</name>
+<role>Lt. Gorman</role>
+</p>
+<p>
+<name>Paul Reiser</name>
+<role>Carter Burke</role>
+</p>
+<p>
+<name>Bill Paxton</name>
+<role>Pvt. Hudson</role>
+</p>
+<p>
+<name>Lance Henriksen</name>
+<role>Bishop</role>
+</p>
+</cast>
+<kws>
+<kw>alien</kw>
+<kw>space-marine</kw>
+<kw>nightmare</kw>
+<kw>sequel</kw>
+<kw>alien-planet</kw>
+<kw>warrior</kw>
+<kw>monster</kw>
+<kw>sole-survivor</kw>
+<kw>extraterrestrial</kw>
+<kw>rescue</kw>
+</kws>
+</movie>
+<movie>
+<title>Eternal Sunshine of the Spotless Mind</title>
+<year>2004</year>
+<rating>8.5</rating>
+<ds>
+<director>
+<name>Michel Gondry</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Drama</item>
+<item>Romance</item>
+<item>Sci-Fi</item>
+</genres>
+<ws>
+<writer>
+<name>Charlie Kaufman</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Michel Gondry</name>
+<role>(story)</role>
+</writer>
+<writer>
+<name>Pierre Bismuth</name>
+<role>(story)</role>
+</writer>
+<writer>
+<name>Charlie Kaufman</name>
+<role>(story)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<mpaa>Rated R for language, some drug and sexual content.</mpaa>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>Anonymous Content</company>
+<company>Focus Features</company>
+<company>This Is That Productions</company>
+</cps>
+<cast>
+<p>
+<name>Jim Carrey</name>
+<role>Joel Barish</role>
+</p>
+<p>
+<name>Kate Winslet</name>
+<role>Clementine Kruczynski</role>
+</p>
+<p>
+<name>Gerry Robert Byrne</name>
+<role>Train Conductor</role>
+</p>
+<p>
+<name>Elijah Wood</name>
+<role>Patrick</role>
+</p>
+<p>
+<name>Thomas Jay Ryan</name>
+<role>Frank</role>
+</p>
+</cast>
+<kws>
+<kw>memory</kw>
+<kw>love</kw>
+<kw>crush</kw>
+<kw>train</kw>
+<kw>beach</kw>
+<kw>february</kw>
+<kw>valentine's-day</kw>
+<kw>character-repeating-someone-else's-dialogue</kw>
+<kw>adultery</kw>
+<kw>partial-female-nudity</kw>
+</kws>
+</movie>
+<movie>
+<title>La vita è bella</title>
+<year>1997</year>
+<rating>8.5</rating>
+<ds>
+<director>
+<name>Roberto Benigni</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Drama</item>
+<item>Romance</item>
+<item>War</item>
+</genres>
+<ws>
+<writer>
+<name>Roberto Benigni</name>
+<role>(story and screenplay)</role>
+</writer>
+<writer>
+<name>Vincenzo Cerami</name>
+<role>(story and screenplay)</role>
+</writer>
+</ws>
+<cts>
+<country>Italy</country>
+</cts>
+<mpaa>Rated PG-13 for holocaust-related thematic elements.</mpaa>
+<ls>
+<language>Italian</language>
+<language>German</language>
+<language>English</language>
+</ls>
+<cps>
+<company>Cecchi Gori Group Tiger Cinematografica</company>
+<company>Melampo Cinematografica</company>
+</cps>
+<cast>
+<p>
+<name>Roberto Benigni</name>
+<role>Guido Orefice</role>
+</p>
+<p>
+<name>Nicoletta Braschi</name>
+<role>Dora</role>
+</p>
+<p>
+<name>Giorgio Cantarini</name>
+<role>Giosué Orefice</role>
+</p>
+<p>
+<name>Giustino Durano</name>
+<role>Eliseo Orefice</role>
+</p>
+<p>
+<name>Sergio Bini Bustric</name>
+<role>Ferruccio Papini</role>
+</p>
+</cast>
+<kws>
+<kw>jewish</kw>
+<kw>tank</kw>
+<kw>italy</kw>
+<kw>waiter</kw>
+<kw>jew</kw>
+<kw>holocaust</kw>
+<kw>nazi</kw>
+<kw>restaurant</kw>
+<kw>schoolteacher</kw>
+<kw>concentration-camp</kw>
+</kws>
+</movie>
+<movie>
+<title>Requiem for a Dream</title>
+<year>2000</year>
+<rating>8.5</rating>
+<ds>
+<director>
+<name>Darren Aronofsky</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Drama</item>
+</genres>
+<ws>
+<writer>
+<name>Hubert Selby Jr.</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Darren Aronofsky</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Hubert Selby Jr.</name>
+<role>(based on the book by)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<mpaa>Rated R for intense depiction of drug addiction, graphic sexuality, strong language and some violence. (edited version)</mpaa>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>Artisan Entertainment</company>
+<company>Thousand Words</company>
+<company>Sibling Productions</company>
+<company>Protozoa Pictures</company>
+<company>Industry Entertainment</company>
+<company>Bandeira Entertainment</company>
+<company>Requiem for a Dream</company>
+<company>Truth and Soul Pictures</company>
+</cps>
+<cast>
+<p>
+<name>Ellen Burstyn</name>
+<role>Sara Goldfarb</role>
+</p>
+<p>
+<name>Jared Leto</name>
+<role>Harry Goldfarb</role>
+</p>
+<p>
+<name>Jennifer Connelly</name>
+<role>Marion Silver</role>
+</p>
+<p>
+<name>Marlon Wayans</name>
+<role>Tyrone C. Love</role>
+</p>
+<p>
+<name>Christopher McDonald</name>
+<role>Tappy Tibbons</role>
+</p>
+</cast>
+<kws>
+<kw>heroin</kw>
+<kw>dream</kw>
+<kw>friend</kw>
+<kw>addiction</kw>
+<kw>drug</kw>
+<kw>addict</kw>
+<kw>pills</kw>
+<kw>red-dress</kw>
+<kw>television</kw>
+<kw>diet-pill</kw>
+</kws>
+</movie>
+<movie>
+<title>Saving Private Ryan</title>
+<year>1998</year>
+<rating>8.5</rating>
+<ds>
+<director>
+<name>Steven Spielberg</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Action</item>
+<item>Drama</item>
+<item>History</item>
+<item>War</item>
+</genres>
+<ws>
+<writer>
+<name>Robert Rodat</name>
+<role>(written by)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<mpaa>Rated R for intense prolonged realistically graphic sequences of war violence, and for language.</mpaa>
+<ls>
+<language>English</language>
+<language>French</language>
+<language>German</language>
+<language>Czech</language>
+</ls>
+<cps>
+<company>Amblin Entertainment</company>
+<company>DreamWorks SKG</company>
+<company>Mark Gordon Productions</company>
+<company>Mutual Film Company</company>
+<company>Paramount Pictures</company>
+</cps>
+<cast>
+<p>
+<name>Tom Hanks</name>
+<role>Capt. John H. Miller</role>
+</p>
+<p>
+<name>Tom Sizemore</name>
+<role>Sgt. Mike Horvath</role>
+</p>
+<p>
+<name>Edward Burns</name>
+<role>Pvt. Richard Reiben</role>
+</p>
+<p>
+<name>Barry Pepper</name>
+<role>Pvt. Daniel Jackson</role>
+</p>
+<p>
+<name>Adam Goldberg</name>
+<role>Pvt. Stanley Mellish</role>
+</p>
+</cast>
+<kws>
+<kw>general</kw>
+<kw>normandy</kw>
+<kw>invasion</kw>
+<kw>army</kw>
+<kw>killed-in-action</kw>
+<kw>soldier</kw>
+<kw>1944</kw>
+<kw>infantry</kw>
+<kw>rescue-mission</kw>
+<kw>rescue</kw>
+</kws>
+</movie>
+<movie>
+<title>Terminator 2: Judgment Day</title>
+<year>1991</year>
+<rating>8.5</rating>
+<ds>
+<director>
+<name>James Cameron</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Action</item>
+<item>Sci-Fi</item>
+<item>Thriller</item>
+</genres>
+<ws>
+<writer>
+<name>William Wisher Jr.</name>
+<role>(written by) (as William Wisher)</role>
+</writer>
+<writer>
+<name>James Cameron</name>
+<role>(written by)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+<country>France</country>
+</cts>
+<mpaa>Rated R for strong sci-fi action and violence, and for language.</mpaa>
+<ls>
+<language>English</language>
+<language>Spanish</language>
+</ls>
+<cps>
+<company>Carolco Pictures</company>
+<company>Pacific Western</company>
+<company>Lightstorm Entertainment</company>
+<company>Canal+</company>
+<company>T2 Productions</company>
+</cps>
+<cast>
+<p>
+<name>Arnold Schwarzenegger</name>
+<role>The Terminator</role>
+</p>
+<p>
+<name>Linda Hamilton</name>
+<role>Sarah Connor</role>
+</p>
+<p>
+<name>Edward Furlong</name>
+<role>John Connor</role>
+</p>
+<p>
+<name>Robert Patrick</name>
+<role>T-1000</role>
+</p>
+<p>
+<name>Earl Boen</name>
+<role>Dr. Silberman</role>
+</p>
+</cast>
+<kws>
+<kw>future</kw>
+<kw>the-terminator</kw>
+<kw>cyborg</kw>
+<kw>warrior</kw>
+<kw>sequel</kw>
+<kw>liquid-metal</kw>
+<kw>mexican</kw>
+<kw>swat-team</kw>
+<kw>voice-sampling</kw>
+<kw>minigun</kw>
+</kws>
+</movie>
+<movie>
+<title>The Departed</title>
+<year>2006</year>
+<rating>8.5</rating>
+<ds>
+<director>
+<name>Martin Scorsese</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Crime</item>
+<item>Drama</item>
+<item>Mystery</item>
+<item>Thriller</item>
+</genres>
+<ws>
+<writer>
+<name>Alan Mak</name>
+<role>(2002 screenplay Mou gaan dou)</role>
+</writer>
+<writer>
+<name>Felix Chong</name>
+<role>(2002 screenplay Mou gaan dou)</role>
+</writer>
+<writer>
+<name>William Monahan</name>
+<role>(screenplay)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+<country>Hong Kong</country>
+</cts>
+<mpaa>Rated R for strong brutal violence, pervasive language, some strong sexual content and drug material.</mpaa>
+<ls>
+<language>English</language>
+<language>Cantonese</language>
+</ls>
+<cps>
+<company>Warner Bros. Pictures</company>
+<company>Plan B Entertainment</company>
+<company>Initial Entertainment Group (IEG)</company>
+<company>Vertigo Entertainment</company>
+<company>Media Asia Films</company>
+</cps>
+<cast>
+<p>
+<name>Leonardo DiCaprio</name>
+<role>Billy Costigan</role>
+</p>
+<p>
+<name>Matt Damon</name>
+<role>Colin Sullivan</role>
+</p>
+<p>
+<name>Jack Nicholson</name>
+<role>Frank Costello</role>
+</p>
+<p>
+<name>Mark Wahlberg</name>
+<role>Staff Sgt. Dignam</role>
+</p>
+<p>
+<name>Martin Sheen</name>
+<role>Cpt. Queenan</role>
+</p>
+</cast>
+<kws>
+<kw>police</kw>
+<kw>undercover</kw>
+<kw>state-police</kw>
+<kw>irish-mafia</kw>
+<kw>informer</kw>
+<kw>criminal</kw>
+<kw>mafia</kw>
+<kw>irish-american</kw>
+<kw>arrest</kw>
+<kw>undercover-cop</kw>
+</kws>
+</movie>
+<movie>
+<title>The Pianist</title>
+<year>2002</year>
+<rating>8.5</rating>
+<ds>
+<director>
+<name>Roman Polanski</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Biography</item>
+<item>Drama</item>
+<item>War</item>
+</genres>
+<ws>
+<writer>
+<name>Wladyslaw Szpilman</name>
+<role>(based on the book by)</role>
+</writer>
+<writer>
+<name>Ronald Harwood</name>
+<role>(screenplay)</role>
+</writer>
+</ws>
+<cts>
+<country>France</country>
+<country>Poland</country>
+<country>Germany</country>
+<country>UK</country>
+</cts>
+<mpaa>Rated R for violence and brief strong language.</mpaa>
+<ls>
+<language>English</language>
+<language>German</language>
+<language>Russian</language>
+</ls>
+<cps>
+<company>R.P. Productions</company>
+<company>Heritage Films</company>
+<company>Studio Babelsberg</company>
+<company>Runteam</company>
+<company>Canal+</company>
+<company>Studio Canal</company>
+<company>Bac Films</company>
+<company>Canal+ Polska</company>
+<company>Telewizja Polska (TVP)</company>
+<company>Agencja Produkcji Filmowej</company>
+<company>Filmboard Berlin-Brandenburg (FBB)</company>
+<company>FilmFernsehFonds Bayern</company>
+<company>Filmförderungsanstalt (FFA)</company>
+<company>Beverly Detroit</company>
+<company>Interscope Communications</company>
+<company>Mainstream S.A.</company>
+</cps>
+<cast>
+<p>
+<name>Adrien Brody</name>
+<role>Wladyslaw Szpilman</role>
+</p>
+<p>
+<name>Emilia Fox</name>
+<role>Dorota</role>
+</p>
+<p>
+<name>Michal Zebrowski</name>
+<role>Jurek</role>
+</p>
+<p>
+<name>Ed Stoppard</name>
+<role>Henryk</role>
+</p>
+<p>
+<name>Maureen Lipman</name>
+<role>Mother</role>
+</p>
+</cast>
+<kws>
+<kw>warsaw-ghetto</kw>
+<kw>jewish</kw>
+<kw>nazi</kw>
+<kw>piano</kw>
+<kw>concert</kw>
+<kw>pianist</kw>
+<kw>deportation</kw>
+<kw>1930s</kw>
+<kw>musician</kw>
+<kw>1940s</kw>
+</kws>
+</movie>
+<movie>
+<title>Gladiator</title>
+<year>2000</year>
+<rating>8.4</rating>
+<ds>
+<director>
+<name>Ridley Scott</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Action</item>
+<item>Adventure</item>
+<item>Drama</item>
+</genres>
+<ws>
+<writer>
+<name>David Franzoni</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>John Logan</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>William Nicholson</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>David Franzoni</name>
+<role>(story)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+<country>UK</country>
+</cts>
+<mpaa>Rated R for intense, graphic combat.</mpaa>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>DreamWorks SKG</company>
+<company>Universal Pictures</company>
+<company>Scott Free Productions</company>
+<company>Red Wagon Entertainment</company>
+</cps>
+<cast>
+<p>
+<name>Russell Crowe</name>
+<role>Maximus</role>
+</p>
+<p>
+<name>Joaquin Phoenix</name>
+<role>Commodus</role>
+</p>
+<p>
+<name>Connie Nielsen</name>
+<role>Lucilla</role>
+</p>
+<p>
+<name>Oliver Reed</name>
+<role>Proximo</role>
+</p>
+<p>
+<name>Richard Harris</name>
+<role>Marcus Aurelius</role>
+</p>
+</cast>
+<kws>
+<kw>gladiator</kw>
+<kw>emperor</kw>
+<kw>general</kw>
+<kw>death</kw>
+<kw>revenge</kw>
+<kw>slavery</kw>
+<kw>senate</kw>
+<kw>murder</kw>
+<kw>roman-senate</kw>
+<kw>corruption</kw>
+</kws>
+</movie>
+<movie>
+<title>Catch Me If You Can</title>
+<year>2002</year>
+<rating>7.8</rating>
+<ds>
+<director>
+<name>Steven Spielberg</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Biography</item>
+<item>Crime</item>
+<item>Drama</item>
+</genres>
+<ws>
+<writer>
+<name>Frank Abagnale Jr.</name>
+<role>(book "Catch Me If You Can: The Amazing True Story of the Youngest and Most Daring Con Man in the History of Fun and Profit") (as Frank W. Abagnale)</role>
+</writer>
+<writer>
+<name>Stan Redding</name>
+<role>(book "Catch Me If You Can: The Amazing True Story of the Youngest and Most Daring Con Man in the History of Fun and Profit")</role>
+</writer>
+<writer>
+<name>Jeff Nathanson</name>
+<role>(screenplay)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<mpaa>Rated PG-13 for some sexual content and brief language.</mpaa>
+<ls>
+<language>English</language>
+<language>French</language>
+</ls>
+<cps>
+<company>DreamWorks SKG</company>
+<company>Amblin Entertainment</company>
+<company>Kemp Company</company>
+<company>Splendid Pictures</company>
+<company>Parkes/MacDonald Productions</company>
+</cps>
+<cast>
+<p>
+<name>Leonardo DiCaprio</name>
+<role>Frank Abagnale Jr.</role>
+</p>
+<p>
+<name>Tom Hanks</name>
+<role>Carl Hanratty</role>
+</p>
+<p>
+<name>Christopher Walken</name>
+<role>Frank Abagnale</role>
+</p>
+<p>
+<name>Martin Sheen</name>
+<role>Roger Strong</role>
+</p>
+<p>
+<name>Nathalie Baye</name>
+<role>Paula Abagnale</role>
+</p>
+</cast>
+<kws>
+<kw>pilot</kw>
+<kw>fbi</kw>
+<kw>doctor</kw>
+<kw>fbi-agent</kw>
+<kw>attorney</kw>
+<kw>con</kw>
+<kw>prosecutor</kw>
+<kw>1960s</kw>
+<kw>france</kw>
+<kw>con-artist</kw>
+</kws>
+</movie>
+<movie>
+<title>The Matrix</title>
+<year>1999</year>
+<rating>8.7</rating>
+<ds>
+<director>
+<name>Andy Wachowski</name>
+<role>(as The Wachowski Brothers)</role>
+</director>
+<director>
+<name>Lana Wachowski</name>
+<role>(as The Wachowski Brothers)</role>
+</director>
+</ds>
+<genres>
+<item>Action</item>
+<item>Adventure</item>
+<item>Adventure</item>
+<item>Adventure</item>
+<item>Sci-Fi</item>
+</genres>
+<ws>
+<writer>
+<name>Lana Wachowski</name>
+<role>(written by) (as The Wachowski Brothers)</role>
+</writer>
+<writer>
+<name>Andy Wachowski</name>
+<role>(written by) (as The Wachowski Brothers)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+<country>Australia</country>
+</cts>
+<mpaa>Rated R for sci-fi violence and brief language.</mpaa>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>Groucho II Film Partnership</company>
+<company>Silver Pictures</company>
+<company>Village Roadshow Pictures</company>
+<company>Warner Bros. Pictures</company>
+</cps>
+<cast>
+<p>
+<name>Keanu Reeves</name>
+<role>Neo</role>
+</p>
+<p>
+<name>Laurence Fishburne</name>
+<role>Morpheus</role>
+</p>
+<p>
+<name>Carrie-Anne Moss</name>
+<role>Trinity</role>
+</p>
+<p>
+<name>Hugo Weaving</name>
+<role>Agent Smith</role>
+</p>
+<p>
+<name>Gloria Foster</name>
+<role>Oracle</role>
+</p>
+</cast>
+<kws>
+<kw>the-matrix</kw>
+<kw>computer</kw>
+<kw>hacker</kw>
+<kw>computer-hacker</kw>
+<kw>reality</kw>
+<kw>truth</kw>
+<kw>messiah</kw>
+<kw>software</kw>
+<kw>programmer</kw>
+<kw>computer-program</kw>
+</kws>
+</movie>
+<movie>
+<title>He's Leaving Home</title>
+<year>2000</year>
+<rating>8.3</rating>
+<ds>
+<director>
+<name>Graham Linehan</name>
+<role></role>
+</director>
+<director>
+<name>Nick Wood</name>
+<role></role>
+</director>
+</ds>
+<ws>
+<writer>
+<name>Graham Linehan</name>
+<role>(by)</role>
+</writer>
+<writer>
+<name>Dylan Moran</name>
+<role>(by)</role>
+</writer>
+</ws>
+<cts>
+<country>UK</country>
+</cts>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>Assembly Film and Television</company>
+<company>Channel 4</company>
+</cps>
+<cast>
+<p>
+<name>Dylan Moran</name>
+<role>Bernard Black</role>
+</p>
+<p>
+<name>Bill Bailey</name>
+<role>Manny</role>
+</p>
+<p>
+<name>Tamsin Greig</name>
+<role>Fran</role>
+</p>
+<p>
+<name>Omid Djalili</name>
+<role>Trebor</role>
+</p>
+<p>
+<name>Sophie Stanton</name>
+<role>Policewoman</role>
+</p>
+</cast>
+<kws>
+<kw>rags-to-riches</kw>
+<kw>bee</kw>
+<kw>phone-booth</kw>
+<kw>gossip</kw>
+<kw>photo-shoot</kw>
+<kw>escort</kw>
+<kw>argument</kw>
+<kw>photographer</kw>
+<kw>yo-yo</kw>
+<kw>scissors</kw>
+</kws>
+</movie>
+<movie>
+<title>Betty Fisher et autres histoires</title>
+<year>2001</year>
+<rating>6.9</rating>
+<ds>
+<director>
+<name>Claude Miller</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Comedy</item>
+<item>Crime</item>
+<item>Drama</item>
+<item>Thriller</item>
+</genres>
+<ws>
+<writer>
+<name>Claude Miller</name>
+<role>(writer)</role>
+</writer>
+<writer>
+<name>Ruth Rendell</name>
+<role>(novel "The Tree of Hands")</role>
+</writer>
+</ws>
+<cts>
+<country>France</country>
+<country>Canada</country>
+</cts>
+<ls>
+<language>French</language>
+</ls>
+<cps>
+<company>Canal+</company>
+<company>France 2 Cinéma</company>
+<company>Go Films</company>
+<company>Les Films de la Boissière</company>
+<company>Sofica Sofinergie 5</company>
+<company>UGC YM</company>
+</cps>
+<cast>
+<p>
+<name>Sandrine Kiberlain</name>
+<role>Betty Fisher</role>
+</p>
+<p>
+<name>Nicole Garcia</name>
+<role>Margot Fisher</role>
+</p>
+<p>
+<name>Mathilde Seigner</name>
+<role>Carole Novacki</role>
+</p>
+<p>
+<name>Luck Mervil</name>
+<role>François Diembele</role>
+</p>
+<p>
+<name>Edouard Baer</name>
+<role>Alex Basato</role>
+</p>
+</cast>
+<kws>
+<kw>novelist</kw>
+<kw>death</kw>
+<kw>depression</kw>
+<kw>criminal</kw>
+<kw>newspaper</kw>
+<kw>christmas</kw>
+<kw>flashback</kw>
+<kw>father-daughter-relationship</kw>
+<kw>mother-son-relationship</kw>
+<kw>fever</kw>
+</kws>
+</movie>
+<movie>
+<title>Minority Report</title>
+<year>2002</year>
+<rating>7.7</rating>
+<ds>
+<director>
+<name>Steven Spielberg</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Action</item>
+<item>Crime</item>
+<item>Mystery</item>
+<item>Sci-Fi</item>
+<item>Thriller</item>
+</genres>
+<ws>
+<writer>
+<name>Scott Frank</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Jon Cohen</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Philip K. Dick</name>
+<role>(short story)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<mpaa>Rated PG-13 for violence, brief language, some sexuality and drug content.</mpaa>
+<ls>
+<language>English</language>
+<language>Swedish</language>
+</ls>
+<cps>
+<company>Twentieth Century Fox Film Corporation</company>
+<company>DreamWorks SKG</company>
+<company>Cruise/Wagner Productions</company>
+<company>Blue Tulip Productions</company>
+<company>Ronald Shusett/Gary Goldman</company>
+<company>Amblin Entertainment</company>
+</cps>
+<cast>
+<p>
+<name>Tom Cruise</name>
+<role>Chief John Anderton</role>
+</p>
+<p>
+<name>Max von Sydow</name>
+<role>Director Lamar Burgess</role>
+</p>
+<p>
+<name>Steve Harris</name>
+<role>Jad</role>
+</p>
+<p>
+<name>Neal McDonough</name>
+<role>Fletcher</role>
+</p>
+<p>
+<name>Patrick Kilpatrick</name>
+<role>Knott</role>
+</p>
+</cast>
+<kws>
+<kw>murder</kw>
+<kw>future</kw>
+<kw>washington-d.c.</kw>
+<kw>psychic</kw>
+<kw>computer</kw>
+<kw>arrest</kw>
+<kw>tragedy</kw>
+<kw>hologram</kw>
+<kw>evidence</kw>
+<kw>halo</kw>
+</kws>
+</movie>
+<movie>
+<title>The 6th Day</title>
+<year>2000</year>
+<rating>5.8</rating>
+<ds>
+<director>
+<name>Roger Spottiswoode</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Action</item>
+<item>Sci-Fi</item>
+<item>Thriller</item>
+</genres>
+<ws>
+<writer>
+<name>Marianne Wibberley</name>
+<role>(written by)</role>
+</writer>
+<writer>
+<name>Cormac Wibberley</name>
+<role>(written by)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<mpaa>Rated PG-13 for strong action violence, brief strong language and some sensuality.</mpaa>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>Phoenix Pictures</company>
+</cps>
+<cast>
+<p>
+<name>Arnold Schwarzenegger</name>
+<role>Adam Gibson</role>
+</p>
+<p>
+<name>Michael Rapaport</name>
+<role>Hank Morgan</role>
+</p>
+<p>
+<name>Tony Goldwyn</name>
+<role>Michael Drucker</role>
+</p>
+<p>
+<name>Michael Rooker</name>
+<role>Robert Marshall</role>
+</p>
+<p>
+<name>Sarah Wynter</name>
+<role>Talia Elsworth</role>
+</p>
+</cast>
+<kws>
+<kw>clone</kw>
+<kw>cloning</kw>
+<kw>future</kw>
+<kw>human-cloning</kw>
+<kw>knocked-out</kw>
+<kw>nudity</kw>
+<kw>gene-manipulation</kw>
+<kw>shootout</kw>
+<kw>dual-role</kw>
+<kw>implanted-memory</kw>
+</kws>
+</movie>
+<movie>
+<title>Terminator 3 : Rise of the Machines</title>
+<year>2003</year>
+<rating>6.2</rating>
+<ds>
+<director>
+<name>Antoine Charreyron</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Action</item>
+<item>Crime</item>
+<item>Sci-Fi</item>
+<item>Thriller</item>
+</genres>
+<ws>
+<writer>
+<name>James Cameron</name>
+<role>(characters)</role>
+</writer>
+<writer>
+<name>Gale Anne Hurd</name>
+<role>(characters)</role>
+</writer>
+</ws>
+<cts>
+<country>UK</country>
+<country>USA</country>
+</cts>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>C-2 Pictures</company>
+<company>Intermedia Films</company>
+<company>Black Ops Entertainment</company>
+<company>Face2face Animation</company>
+</cps>
+<cast>
+<p>
+<name>Arnold Schwarzenegger</name>
+<role>The Terminator</role>
+</p>
+<p>
+<name>Poppi Monroe</name>
+<role>Kate Brewster</role>
+</p>
+<p>
+<name>Claire Danes</name>
+<role>Kate Brewster</role>
+</p>
+<p>
+<name>Nick Stahl</name>
+<role>John Connor</role>
+</p>
+<p>
+<name>Kristanna Loken</name>
+<role>T-X</role>
+</p>
+</cast>
+<kws>
+<kw>robot</kw>
+<kw>fictional-war</kw>
+<kw>cyborg</kw>
+<kw>world-domination</kw>
+<kw>future-war</kw>
+<kw>man-versus-machine</kw>
+<kw>machine</kw>
+<kw>character-name-in-title</kw>
+</kws>
+</movie>
+<movie>
+<title>Panic Room</title>
+<year>2002</year>
+<rating>6.9</rating>
+<ds>
+<director>
+<name>David Fincher</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Thriller</item>
+</genres>
+<ws>
+<writer>
+<name>David Koepp</name>
+<role>(written by)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+</cts>
+<mpaa>Rated R for violence and language.</mpaa>
+<ls>
+<language>English</language>
+</ls>
+<cps>
+<company>Columbia Pictures Corporation</company>
+<company>Hofflund/Polone</company>
+<company>Indelible Pictures</company>
+</cps>
+<cast>
+<p>
+<name>Jodie Foster</name>
+<role>Meg Altman</role>
+</p>
+<p>
+<name>Kristen Stewart</name>
+<role>Sarah Altman</role>
+</p>
+<p>
+<name>Forest Whitaker</name>
+<role>Burnham</role>
+</p>
+<p>
+<name>Dwight Yoakam</name>
+<role>Raoul</role>
+</p>
+<p>
+<name>Jared Leto</name>
+<role>Junior</role>
+</p>
+</cast>
+<kws>
+<kw>panic</kw>
+<kw>panic-room</kw>
+<kw>brownstone</kw>
+<kw>money</kw>
+<kw>burglar</kw>
+<kw>break-in</kw>
+<kw>diabetic</kw>
+<kw>safe</kw>
+<kw>home</kw>
+<kw>police</kw>
+</kws>
+</movie>
+<movie>
+<title>The Man Who Wasn't There</title>
+<year>2001</year>
+<rating>7.7</rating>
+<ds>
+<director>
+<name>Ethan Coen</name>
+<role>(uncredited)</role>
+</director>
+<director>
+<name>Joel Coen</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Crime</item>
+<item>Drama</item>
+</genres>
+<ws>
+<writer>
+<name>Ethan Coen</name>
+<role>(written by)</role>
+</writer>
+<writer>
+<name>Joel Coen</name>
+<role>(written by)</role>
+</writer>
+</ws>
+<cts>
+<country>USA</country>
+<country>UK</country>
+</cts>
+<mpaa>Rated R for a scene of violence.</mpaa>
+<ls>
+<language>English</language>
+<language>Italian</language>
+<language>French</language>
+</ls>
+<cps>
+<company>Good Machine</company>
+<company>Gramercy Pictures (I)</company>
+<company>Mike Zoss Productions</company>
+<company>The KL Line</company>
+<company>Working Title Films</company>
+</cps>
+<cast>
+<p>
+<name>Billy Bob Thornton</name>
+<role>Ed Crane</role>
+</p>
+<p>
+<name>Frances McDormand</name>
+<role>Doris Crane</role>
+</p>
+<p>
+<name>Michael Badalucco</name>
+<role>Frank</role>
+</p>
+<p>
+<name>James Gandolfini</name>
+<role>Big Dave Brewster</role>
+</p>
+<p>
+<name>Katherine Borowitz</name>
+<role>Ann Nirdlinger Brewster</role>
+</p>
+</cast>
+<kws>
+<kw>blackmail</kw>
+<kw>barber</kw>
+<kw>laconic</kw>
+<kw>chain-smoking</kw>
+<kw>in-law</kw>
+<kw>heisenberg</kw>
+<kw>uncertainty-principle</kw>
+<kw>santa-rosa-california</kw>
+<kw>alien</kw>
+<kw>department-store</kw>
+</kws>
+</movie>
+<movie>
+<title>Gente di Roma</title>
+<year>2003</year>
+<rating>6.4</rating>
+<ds>
+<director>
+<name>Ettore Scola</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Comedy</item>
+</genres>
+<ws>
+<writer>
+<name>Ettore Scola</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Ettore Scola</name>
+<role>(story)</role>
+</writer>
+<writer>
+<name>Paola Scola</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Silvia Scola</name>
+<role>(screenplay)</role>
+</writer>
+</ws>
+<cts>
+<country>Italy</country>
+</cts>
+<ls>
+<language>Italian</language>
+</ls>
+<cps>
+<company>Istituto Luce</company>
+<company>Ministero per i Beni e le Attività Culturali (MiBAC)</company>
+<company>Romi Cinematografica</company>
+</cps>
+<cast>
+<p>
+<name>Giorgio Colangeli</name>
+<role></role>
+</p>
+<p>
+<name>Antonello Fassari</name>
+<role></role>
+</p>
+<p>
+<name>Fabio Ferrari</name>
+<role></role>
+</p>
+<p>
+<name>Fiorenzo Fiorentini</name>
+<role></role>
+</p>
+<p>
+<name>Arnoldo Foà</name>
+<role></role>
+</p>
+</cast>
+<kws>
+<kw>rome-italy</kw>
+</kws>
+</movie>
+<movie>
+<title>Concorrenza sleale</title>
+<year>2001</year>
+<rating>7.0</rating>
+<ds>
+<director>
+<name>Ettore Scola</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Drama</item>
+<item>War</item>
+</genres>
+<ws>
+<writer>
+<name>Ettore Scola</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Silvia Scola</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Furio Scarpelli</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Giacomo Scarpelli</name>
+<role>(screenplay)</role>
+</writer>
+<writer>
+<name>Furio Scarpelli</name>
+<role>(story)</role>
+</writer>
+</ws>
+<cts>
+<country>Italy</country>
+<country>France</country>
+</cts>
+<ls>
+<language>Italian</language>
+</ls>
+<cps>
+<company>Medusa Produzione</company>
+<company>A.Gi.Di.</company>
+<company>Filmtel</company>
+<company>Telepiù</company>
+<company>Eurimages</company>
+<company>France 3 Cinéma</company>
+<company>Les Films Alain Sarde</company>
+</cps>
+<cast>
+<p>
+<name>Diego Abatantuono</name>
+<role>Umberto Melchiori</role>
+</p>
+<p>
+<name>Sergio Castellitto</name>
+<role>Leone DellaRocca</role>
+</p>
+<p>
+<name>Gérard Depardieu</name>
+<role>Professor Angelo</role>
+</p>
+<p>
+<name>Antonella Attili</name>
+<role>Giuditta DellaRocca</role>
+</p>
+<p>
+<name>Claudio Bigagli</name>
+<role></role>
+</p>
+</cast>
+<kws>
+<kw>racial-slur</kw>
+<kw>tailor</kw>
+<kw>rome-italy</kw>
+<kw>fascism</kw>
+<kw>anti-fascism</kw>
+<kw>anti-semitism</kw>
+<kw>italian-fascism</kw>
+<kw>business-rivalry</kw>
+<kw>1930s</kw>
+<kw>shop</kw>
+</kws>
+</movie>
+<movie>
+<title>El espinazo del diablo</title>
+<year>2001</year>
+<rating>7.6</rating>
+<ds>
+<director>
+<name>Guillermo del Toro</name>
+<role></role>
+</director>
+</ds>
+<genres>
+<item>Fantasy</item>
+<item>Horror</item>
+<item>Mystery</item>
+<item>Thriller</item>
+</genres>
+<ws>
+<writer>
+<name>Antonio Trashorras</name>
+<role>(written by)</role>
+</writer>
+<writer>
+<name>David Muñoz</name>
+<role>(written by)</role>
+</writer>
+<writer>
+<name>Guillermo del Toro</name>
+<role>(written by)</role>
+</writer>
+</ws>
+<cts>
+<country>Spain</country>
+<country>Mexico</country>
+</cts>
+<mpaa>Rated R for violence, language and some sexuality.</mpaa>
+<ls>
+<language>Spanish</language>
+</ls>
+<cps>
+<company>El Deseo S.A.</company>
+<company>Tequila Gang</company>
+<company>Anhelo Producciones</company>
+<company>Sogepaq</company>
+<company>Canal+ España</company>
+<company>Good Machine</company>
+</cps>
+<cast>
+<p>
+<name>Marisa Paredes</name>
+<role>Carmen</role>
+</p>
+<p>
+<name>Eduardo Noriega</name>
+<role>Jacinto</role>
+</p>
+<p>
+<name>Federico Luppi</name>
+<role>Dr. Casares</role>
+</p>
+<p>
+<name>Fernando Tielve</name>
+<role>Carlos</role>
+</p>
+<p>
+<name>Íñigo Garcés</name>
+<role>Jaime</role>
+</p>
+</cast>
+<kws>
+<kw>orphanage</kw>
+<kw>ghost</kw>
+<kw>bully</kw>
+<kw>bomb</kw>
+<kw>death</kw>
+<kw>caretaker</kw>
+<kw>boy</kw>
+<kw>tutor</kw>
+<kw>spain</kw>
+<kw>suspense</kw>
+</kws>
+</movie>
+</imdb>
