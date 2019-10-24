@@ -6,11 +6,11 @@ import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextArea;
+import javafx.scene.control.*;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
+import javafx.scene.text.Text;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import org.w3c.dom.Document;
@@ -36,9 +36,42 @@ public class XMLFileParsing extends Application {
 		hboxSource.setSpacing(10);
 		TextArea txtR = new TextArea();
 
+//		search button
+		TextField tf=new TextField();
+		Button b = new Button("Search");
+		HBox hboxSearch = new HBox(tf,b );
+		hboxSearch.setSpacing(10);
+
+//		Radio Buttons
+		ToggleGroup group = new ToggleGroup();
+		RadioButton button1 = new RadioButton("Top-3");
+		RadioButton button2 = new RadioButton("Top-5");
+		RadioButton button3 = new RadioButton("Top-8");
+		RadioButton button4 = new RadioButton("Top-10");
+
+		button1.setToggleGroup(group);
+		button2.setToggleGroup(group);
+		button3.setToggleGroup(group);
+		button4.setToggleGroup(group);
+
+		VBox radioVbox = new VBox();
+		radioVbox.setSpacing(10);
+		radioVbox.getChildren().addAll(button1,button2,button3,button4);
+
+//		Buttons for Chart
+		Text text=new Text("Display selected option in chart:");
+		text.setStyle("-fx-font-weight: bold");
+
+		Button b1 = new Button("Bar Chart");
+		Button b2 = new Button("Pie Chart");
+		HBox hBoxChartButton = new HBox(b1,b2);
+		hBoxChartButton.setSpacing(10);
+
+//		action of button when choosing file
+
 		btnSource.setOnAction(e -> {
 
-			javafx.stage.FileChooser file = new javafx.stage.FileChooser();
+			FileChooser file = new FileChooser();
 			file.setTitle("Open File");
 			selectedFile = file.showOpenDialog(stage);
 			lblSource.setText(selectedFile.getName());
@@ -127,9 +160,7 @@ public class XMLFileParsing extends Application {
 
 		HBox hboxParsing = new HBox(btnLoadFile);
 		hboxParsing.setSpacing(10);
-
-
-
+//grade pane
 		GridPane grdPane = new GridPane();
 
 		grdPane.setPadding(new Insets(10,10,10,10));
@@ -139,9 +170,14 @@ public class XMLFileParsing extends Application {
 
 		grdPane.addRow(0,hboxSource);
 		grdPane.addRow(1,hboxParsing);
-		grdPane.addRow(2,txtR);
+		grdPane.addRow(2,hboxSearch);
+		grdPane.addRow(3,txtR);
+		grdPane.addRow(4,radioVbox);
+		grdPane.addRow(5, text);
+		grdPane.addRow(6, hBoxChartButton);
 
-		Scene scene = new Scene(grdPane,300,400);
+//scene
+		Scene scene = new Scene(grdPane,600,600);
 		stage.setScene(scene);
 		stage.setTitle("IMDB XML File Parsing System");
 		stage.show();
