@@ -3,23 +3,48 @@ package view;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
+import javafx.geometry.Orientation;
 import javafx.geometry.Pos;
 import javafx.scene.Parent;
+import javafx.scene.control.*;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
+
+import java.awt.*;
 
 public class ChooseSourceView {
 
     private GridPane gridPaneView;
-    Button btnSource;
+    Button btnChooseSource;
     HBox hboxSource;
     TextArea textArea;
     Button btnLoadFile;
     HBox hboxLoad;
     Label lblSource;
+    Label applicationTitle;
+    Label applicationDescription;
+    VBox vboxTitle;
+    Separator separator1;
+    Separator separator2;
+    Separator separator3;
+
+    HBox hboxSearch;
+    HBox hboxRadioButtons;
+    HBox hboxGraphButtons;
+
+
+
+    TextField searchField;
+    Button searchButton;
+    Label searchLabel;
+
+    Button pieChart;
+    Button barChart;
 
 
     public ChooseSourceView(){
@@ -33,37 +58,102 @@ public class ChooseSourceView {
 
     public void createAndConfigureLayoutControls(){
 
-        btnSource = new Button("Choose Source");
-        lblSource = new Label("No File Chosen");
-        hboxSource = new HBox(btnSource,lblSource );
+        applicationTitle = new Label("Welcome to XML Keyword Search System");
+        applicationDescription = new Label("Please choose the XML file to parse!");
+        applicationTitle.setStyle("-fx-font: 15 arial");
+
+        separator1 = new Separator();
+        separator1.setOrientation(Orientation.HORIZONTAL);
+
+        separator2 = new Separator();
+        separator2.setOrientation(Orientation.VERTICAL);
+
+
+        vboxTitle = new VBox(applicationTitle,applicationDescription);
+        vboxTitle.setAlignment(Pos.TOP_CENTER);
+        vboxTitle.setSpacing(10);
+
+
+        btnChooseSource = new Button("Choose Source");
+//        btnChooseSource.setStyle("-fx-font-size:12");
+//        btnChooseSource.setStyle("-fx-background-color:blue");
+        btnChooseSource.setStyle("-fx-text-color:blue");
+
+
+        lblSource = new Label("No File Chosen  ");
+        btnLoadFile = new Button("Load File");
+        btnLoadFile.setAlignment(Pos.CENTER_RIGHT);
+
+
+        hboxSource = new HBox(btnChooseSource,lblSource,separator2,btnLoadFile);
+        hboxSource.setAlignment(Pos.CENTER_LEFT);
         hboxSource.setSpacing(10);
         textArea = new TextArea();
-        btnLoadFile = new Button("Load File");
-        hboxLoad = new HBox(btnLoadFile);
-        hboxLoad.setSpacing(10);
+        textArea.setPrefHeight(300);
+        textArea.setPrefWidth(700);
+
+        searchLabel =  new Label("Enter keyword to search:");
+        searchField =  new TextField();
+        searchButton = new Button("Search");
+        hboxSearch = new HBox(searchLabel,searchField,searchButton);
+        hboxSearch.setAlignment(Pos.CENTER_LEFT);
+        hboxSearch.setSpacing(10);
+
+        RadioButton top3Keyword = new RadioButton();
+        top3Keyword.setText("Top-3 Coorelated Keywords");
+
+        RadioButton top5Keyword = new RadioButton();
+        top5Keyword.setText("Top-5 Coorelated Keywords");
+
+        RadioButton top8Keyword = new RadioButton();
+        top8Keyword.setText("Top-8 Coorelated Keywords");
+
+        separator3 = new Separator();
+        separator3.setOrientation(Orientation.HORIZONTAL);
+
+        hboxRadioButtons = new HBox(top3Keyword,top5Keyword,top8Keyword);
+        hboxRadioButtons.setSpacing(30);
+
+        pieChart = new Button("View Piechart");
+        barChart = new Button("View Barchart");
+
+        hboxGraphButtons =  new HBox(pieChart,barChart);
+        hboxGraphButtons.setSpacing(30);
+        hboxGraphButtons.setAlignment(Pos.CENTER);
+
     }
 
     public void createAndConfigurePane(){
-
         gridPaneView = new GridPane();
-        gridPaneView.setPadding(new Insets(10,10,10,10));
+//        gridPaneView.setGridLinesVisible(true);
+        gridPaneView.setPadding(new Insets(20,20,20,20));
         gridPaneView.setHgap(10);
-        gridPaneView.setVgap(10);
-        gridPaneView.setAlignment(Pos.CENTER);
+        gridPaneView.setVgap(20);
+        gridPaneView.setAlignment(Pos.TOP_CENTER);
 
-        gridPaneView.addRow(0,hboxSource);
-        gridPaneView.addRow(1,hboxLoad);
-        gridPaneView.addRow(2,textArea);
+
+        gridPaneView.addRow(0,vboxTitle);
+        gridPaneView.addRow(1,separator1);
+        gridPaneView.addRow(2,hboxSource);
+
+        gridPaneView.addRow(3,textArea);
+        gridPaneView.addRow(4,hboxSearch);
+        gridPaneView.addRow(5,separator3);
+        gridPaneView.addRow(6,hboxRadioButtons);
+        gridPaneView.addRow(7,hboxGraphButtons);
     }
 
     public void addChooseSourceButtonListener(EventHandler<ActionEvent> eventListener){
-        btnSource.setOnAction(eventListener);
+        btnChooseSource.setOnAction(eventListener);
     }
 
     public void addLoadTextButtonListener(EventHandler<ActionEvent> eventListener){
         btnLoadFile.setOnAction(eventListener);
     }
 
+    public void addSearchButtonListener(EventHandler<ActionEvent> eventListener){
+        searchButton.setOnAction(eventListener);
+    }
 
     // Getters and Setters method reside here!
 
@@ -83,12 +173,12 @@ public class ChooseSourceView {
         this.gridPaneView = gridPaneView;
     }
 
-    public Button getBtnSource() {
-        return btnSource;
+    public Button getBtnChooseSource() {
+        return btnChooseSource;
     }
 
-    public void setBtnSource(Button btnSource) {
-        this.btnSource = btnSource;
+    public void setBtnChooseSource(Button btnChooseSource) {
+        this.btnChooseSource = btnChooseSource;
     }
 
     public HBox getHboxSource() {
@@ -121,5 +211,13 @@ public class ChooseSourceView {
 
     public void setHboxLoad(HBox hboxLoad) {
         this.hboxLoad = hboxLoad;
+    }
+
+    public TextField getSearchField() {
+        return searchField;
+    }
+
+    public void setSearchField(TextField searchField) {
+        this.searchField = searchField;
     }
 }
