@@ -42,6 +42,10 @@ public class ChooseSourceView {
 
     TextField searchField;
     Button searchButton;
+
+
+
+
     Label searchLabel;
 
     Button pieChart;
@@ -175,7 +179,9 @@ public class ChooseSourceView {
 //        toggleGroup.selectedToggleProperty().addListener(ChangeListene);
 //    }
 
-//    public void addPieChartButt
+    public void addBarChartButtonListener(EventHandler<ActionEvent> eventListener){
+        barChart.setOnAction(eventListener);
+    }
 
     // Getters and Setters method reside here!
 
@@ -241,5 +247,12 @@ public class ChooseSourceView {
 
     public void setSearchField(TextField searchField) {
         this.searchField = searchField;
+    }
+
+    public ToggleGroup getToggleGroup() {
+        return toggleGroup;
+    }
+    public void setToggleGroup(ToggleGroup toggleGroup) {
+        this.toggleGroup = toggleGroup;
     }
 }
