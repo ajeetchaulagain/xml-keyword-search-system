@@ -15,6 +15,7 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 
+import javax.swing.event.ChangeListener;
 import java.awt.*;
 
 public class ChooseSourceView {
@@ -45,6 +46,9 @@ public class ChooseSourceView {
 
     Button pieChart;
     Button barChart;
+
+    ToggleGroup toggleGroup;
+
 
 
     public ChooseSourceView(){
@@ -100,20 +104,31 @@ public class ChooseSourceView {
         hboxSearch.setAlignment(Pos.CENTER_LEFT);
         hboxSearch.setSpacing(10);
 
+        toggleGroup =  new ToggleGroup();
         RadioButton top3Keyword = new RadioButton();
         top3Keyword.setText("Top-3 Coorelated Keywords");
+        top3Keyword.setSelected(true);
+        top3Keyword.setToggleGroup(toggleGroup);
 
         RadioButton top5Keyword = new RadioButton();
         top5Keyword.setText("Top-5 Coorelated Keywords");
+        top5Keyword.setToggleGroup(toggleGroup);
 
         RadioButton top8Keyword = new RadioButton();
         top8Keyword.setText("Top-8 Coorelated Keywords");
+        top8Keyword.setToggleGroup(toggleGroup);
+
+        RadioButton top10Keyword = new RadioButton();
+        top10Keyword.setText("Top-10 Coorelated Keywords");
+        top10Keyword.setToggleGroup(toggleGroup);
+
 
         separator3 = new Separator();
         separator3.setOrientation(Orientation.HORIZONTAL);
 
-        hboxRadioButtons = new HBox(top3Keyword,top5Keyword,top8Keyword);
-        hboxRadioButtons.setSpacing(30);
+        hboxRadioButtons = new HBox(top3Keyword,top5Keyword,top8Keyword,top10Keyword);
+        hboxRadioButtons.setSpacing(5);
+        hboxRadioButtons.setStyle("-fx-font:11 arial");
 
         pieChart = new Button("View Piechart");
         barChart = new Button("View Barchart");
@@ -155,6 +170,12 @@ public class ChooseSourceView {
     public void addSearchButtonListener(EventHandler<ActionEvent> eventListener){
         searchButton.setOnAction(eventListener);
     }
+
+//    public void addToggleGroupListener(EventHandler<ActionEvent> eventListener){
+//        toggleGroup.selectedToggleProperty().addListener(ChangeListene);
+//    }
+
+//    public void addPieChartButt
 
     // Getters and Setters method reside here!
 
