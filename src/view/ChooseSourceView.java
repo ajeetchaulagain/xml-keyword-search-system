@@ -91,6 +91,7 @@ public class ChooseSourceView {
         textArea = new TextArea();
         textArea.setPrefHeight(300);
         textArea.setPrefWidth(700);
+        textArea.setStyle("-fx-font:12 arial");
 
         searchLabel =  new Label("Enter keyword to search:");
         searchField =  new TextField();

@@ -14,15 +14,15 @@ import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 import java.sql.SQLOutput;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
+import java.util.*;
 import java.util.List;
 
 public class ChooseSourceModel {
 
     // Movie List
     ArrayList<Movie> movieList = new ArrayList<>();
+    String[] excludedKeywordsForValidation = {"English", "The"};
+
     public ArrayList<Movie> parseAndDisplayXML(File selectedFile, TextArea textArea) {
 
         textArea.setText("");
@@ -219,12 +219,14 @@ public class ChooseSourceModel {
             if(movie.getKeywords().contains(searchKeyword)||
                 movie.getCastName().contains(searchKeyword) ||
                     movie.getDirectorName().contains(searchKeyword)||
-                    movie.getYear().contains(searchKeyword) ||
-                    movie.getRating().contains(searchKeyword)||
+                    // Rating and Year excluded for the keywords
+//                    movie.getYear().contains(searchKeyword) ||
+//                    movie.getRating().contains(searchKeyword)||
+//                    movie.getWriterRole().contains(searchKeyword) ||
+
                     movie.getWriterName().contains(searchKeyword)||
-                    movie.getWriterRole().contains(searchKeyword) ||
                     movie.getCastRole().contains(searchKeyword) ||
-                    movie.getCountries().contains(searchKeyword) ||
+                    // movie.getCountries().contains(searchKeyword) ||
 //                    movie.getGenres().contains(searchKeyword) ||
                     movie.getCompanies().contains(searchKeyword) ||
                     movie.getTitle().contains(searchKeyword)
@@ -235,6 +237,8 @@ public class ChooseSourceModel {
         }
         return searchedMovieList;
     }
+
+
 
 
     public void displaySearchedMovie(ArrayList<Movie> searchedMovieList, TextArea textArea){
@@ -248,11 +252,16 @@ public class ChooseSourceModel {
             textArea.setText(textArea.getText() + "Keywords :"+ movie.getKeywords() + "\n");
             textArea.setText(textArea.getText() + "Country : "+ movie.getCountries() + "\n");
             textArea.setText(textArea.getText() + "CastName : "+ movie.getCastName() + "\n");
-            textArea.setText(textArea.getText() + "Director : "+ movie.getDirectorName() + "\n");
-            textArea.setText(textArea.getText() + "Writer : "+ movie.getWriterName() + "\n");
-            textArea.setText(textArea.getText() + "Keywords : "+ movie.getKeywords() + "\n");
+            textArea.setText(textArea.getText() + "CastRole : "+ movie.getCastRole() + "\n");
 
-            textArea.setText(textArea.getText() + "---------------------------------------------------------------------------------------------------------------- \n \n");
+            textArea.setText(textArea.getText() + "Director : "+ movie.getDirectorName() + "\n");
+            textArea.setText(textArea.getText() + "Writer Name : "+ movie.getWriterName() + "\n");
+            textArea.setText(textArea.getText() + "Writer Role : "+ movie.getWriterRole() + "\n");
+
+            textArea.setText(textArea.getText() + "Keywords : "+ movie.getKeywords() + "\n");
+            textArea.setText(textArea.getText() + "Languages : "+ movie.getLanguages() + "\n");
+
+            textArea.setText(textArea.getText() + "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- \n \n");
 
         }
     }
@@ -263,7 +272,8 @@ public class ChooseSourceModel {
         for(Movie movie: movieList){
             keywordsFromMovieList.add(movie.getTitle());
             keywordsFromMovieList.add(movie.getYear());
-            keywordsFromMovieList.add(movie.getRating());
+
+            // keywordsFromMovieList.add(movie.getRating());
 
             for(String string: movie.getKeywords()){
                 keywordsFromMovieList.add(string);
@@ -277,20 +287,21 @@ public class ChooseSourceModel {
                 keywordsFromMovieList.add(string);
             }
 
-            for(String string:movie.getCastRole()){
-                keywordsFromMovieList.add(string);
-            }
+//            for(String string:movie.getCastRole()){
+//                keywordsFromMovieList.add(string);
+//            }
 
             for(String string:movie.getWriterName()){
                 keywordsFromMovieList.add(string);
             }
 
-            for(String string:movie.getWriterRole()){
-                keywordsFromMovieList.add(string);
-            }
-            for(String string:movie.getLanguages()){
-                keywordsFromMovieList.add(string);
-            }
+//            for(String string:movie.getWriterRole()){
+////                keywordsFromMovieList.add(string);
+////            }
+//
+//            for(String string:movie.getLanguages()){
+//                keywordsFromMovieList.add(string);
+//            }
             keywordsFromMovieList.add(movie.getDirectorName());
 
 //            keywordsFromMovieList.add(movie.getGenres().toString());
@@ -315,6 +326,10 @@ public class ChooseSourceModel {
                 filteredKeyWords.add(string);
             }
         }
+        filteredKeyWords.removeAll(Collections.singleton("Pictures"));
+        filteredKeyWords.removeAll(Collections.singleton("Entertainment"));
+        filteredKeyWords.removeAll(Collections.singleton("Productions"));
+        filteredKeyWords.removeAll(Collections.singleton("The"));
         return filteredKeyWords;
     }
 
@@ -324,13 +339,19 @@ public class ChooseSourceModel {
     }
 
 
-
-//    public HashMap<String,Integer> getKeywordFrequencyMap(ArrayList<String> searchedMoviesKeywords, ArrayList<String> imdbMoviesKeywords){
-//        HashMap<String, Integer> keywordFrequencyMap = new HashMap<>();
-//        for(String string: searchedMoviesKeywords){
-//
-//        }
-//
-//    }
+    public HashMap<String,Integer> getKeywordFrequencyMap(HashSet<String> searchedMoviesKeywords, ArrayList<String> imdbMoviesKeywords){
+        HashMap<String, Integer> keywordFrequencyMap = new HashMap<>();
+        for(String keywordSearched: searchedMoviesKeywords){
+            int keywordFrequency = 0;
+            for (String keyword: imdbMoviesKeywords){
+                if(keywordSearched.equals(keyword)){
+                    keywordFrequency++;
+                }
+            }
+            System.out.println("Keyword: " + keywordSearched + "  Frequency: "+ keywordFrequency);
+            keywordFrequencyMap.put(keywordSearched,keywordFrequency);
+        }
+        return keywordFrequencyMap;
+    }
 
 }
