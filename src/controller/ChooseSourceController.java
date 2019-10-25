@@ -3,6 +3,7 @@ package controller;
 import javafx.scene.control.TextArea;
 import javafx.stage.Stage;
 import model.ChooseSourceModel;
+import model.Movie;
 import org.w3c.dom.*;
 import org.xml.sax.SAXException;
 import view.ChooseSourceView;
@@ -13,6 +14,8 @@ import javax.xml.parsers.ParserConfigurationException;
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashSet;
 
 public class ChooseSourceController {
 
@@ -36,16 +39,47 @@ public class ChooseSourceController {
                     chooseSourceView.getLblSource().setText(selectedFile.getName());
                 });
 
+
               chooseSourceView.addLoadTextButtonListener(event -> {
                   TextArea textArea = chooseSourceView.getTextArea();
-                  chooseSourceModel.parseAndDisplayXML(selectedFile,textArea);
+                  ArrayList<Movie> movieList = chooseSourceModel.parseAndDisplayXML(selectedFile,textArea);
+
+                  ArrayList<String> keywordsListFromMovieList = chooseSourceModel.getKeywordsFromMovieList(movieList);
+
+                  for(String string: keywordsListFromMovieList){
+                      System.out.println("Key: "+ string);
+                  }
+
+                  ArrayList<String> filteredKeywords = chooseSourceModel.filterKeywords(keywordsListFromMovieList);
+                  for(String string: filteredKeywords){
+                      System.out.println("Key Filtered: "+ string);
+                  }
+
 
               });
 
               chooseSourceView.addSearchButtonListener(event -> {
                   System.out.println("Search Button clicked");
-                  String text = chooseSourceView.getSearchField().getText();
-                  System.out.println("Value:" + text);
+                  String searchKeyword = chooseSourceView.getSearchField().getText();
+                  ArrayList<Movie> searchedMovieList = chooseSourceModel.searchMovie(searchKeyword);
+
+                  ArrayList<String> keywordsListFromSearchedMovie = chooseSourceModel.getKeywordsFromMovieList(searchedMovieList);
+                  ArrayList<String> filteredKeywords = chooseSourceModel.filterKeywords(keywordsListFromSearchedMovie);
+
+
+
+                  for (String string: filteredKeywords){
+                      System.out.println("Key Filtered [Searched Movie]" + string);
+                  }
+
+
+                  HashSet<String> keywordsHashSet = chooseSourceModel.getHashSetOfKeywords(filteredKeywords);
+                  System.out.println("Filtered Keywords Size [HashSet]: "+ keywordsHashSet.size());
+                  System.out.println("Filtered Keyword Size [ArrayList]:" + filteredKeywords.size());
+
+                  TextArea textArea = chooseSourceView.getTextArea();
+                  chooseSourceModel.displaySearchedMovie(searchedMovieList,textArea);
+
 
               });
     }

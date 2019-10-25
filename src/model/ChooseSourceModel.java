@@ -13,16 +13,18 @@ import javax.xml.parsers.ParserConfigurationException;
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
+import java.sql.SQLOutput;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 
 public class ChooseSourceModel {
 
-
     // Movie List
-      ArrayList<Movie> movieList = new ArrayList<>();
+    ArrayList<Movie> movieList = new ArrayList<>();
+    public ArrayList<Movie> parseAndDisplayXML(File selectedFile, TextArea textArea) {
 
-    public void parseAndDisplayXML(File selectedFile, TextArea textArea) {
         textArea.setText("");
         DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder docBuilder = null;
@@ -102,7 +104,7 @@ public class ChooseSourceModel {
                             String writerName = writer.getElementsByTagName("name").item(0).getTextContent();
                             String writerRole = writer.getElementsByTagName("role").item(0).getTextContent();
 
-                            System.out.println("[writerName , writerRole]" + "[" + writerName + " " + writerRole + "]");
+//                            System.out.println("[writerName , writerRole]" + "[" + writerName + " " + writerRole + "]");
 
 
                             textArea.setText(textArea.getText() + "Writer Name: " + writerName + "\n");
@@ -191,39 +193,144 @@ public class ChooseSourceModel {
                         }
                     }
 
-
                     movieList.add(movie);
-                    System.out.println(movie.toString());
+//                    System.out.println(movie.toString());
                 }
             }
 
             System.out.println("Movie List Size:" + movieList.size());
-
-
 
         } catch (SAXException e1) {
             e1.printStackTrace();
         } catch (IOException e1) {
             e1.printStackTrace();
         }
-
-    }
-
-
-    public void searchMovie(){
-
-        System.out.println("Inside Search Movie");
-
-    }
-
-
-
-
-    public  ArrayList<Movie> getMovieList(){
         return movieList;
     }
 
 
+    // This method search the keyword in entire movie collection and returns the List of Movie that has that keyword
 
+    public ArrayList<Movie> searchMovie(String searchKeyword) {
+        ArrayList<Movie> searchedMovieList =  new ArrayList<>();
+        System.out.println("Inside searchMovie method");
+        for (Movie movie : movieList) {
+
+            if(movie.getKeywords().contains(searchKeyword)||
+                movie.getCastName().contains(searchKeyword) ||
+                    movie.getDirectorName().contains(searchKeyword)||
+                    movie.getYear().contains(searchKeyword) ||
+                    movie.getRating().contains(searchKeyword)||
+                    movie.getWriterName().contains(searchKeyword)||
+                    movie.getWriterRole().contains(searchKeyword) ||
+                    movie.getCastRole().contains(searchKeyword) ||
+                    movie.getCountries().contains(searchKeyword) ||
+//                    movie.getGenres().contains(searchKeyword) ||
+                    movie.getCompanies().contains(searchKeyword) ||
+                    movie.getTitle().contains(searchKeyword)
+            ){
+                System.out.println("Keywords:" + movie.getKeywords());
+                searchedMovieList.add(movie);
+            }
+        }
+        return searchedMovieList;
+    }
+
+
+    public void displaySearchedMovie(ArrayList<Movie> searchedMovieList, TextArea textArea){
+        System.out.println("Inside displaySearchedMovie method");
+        textArea.setText("");
+        for (Movie movie: searchedMovieList){
+
+            textArea.setText(textArea.getText() + "Title : " + movie.getTitle() + "\n");
+            textArea.setText(textArea.getText() + "Year : " + movie.getYear() + "\n");
+            textArea.setText(textArea.getText() + "Rating : "+ movie.getRating() + "\n");
+            textArea.setText(textArea.getText() + "Keywords :"+ movie.getKeywords() + "\n");
+            textArea.setText(textArea.getText() + "Country : "+ movie.getCountries() + "\n");
+            textArea.setText(textArea.getText() + "CastName : "+ movie.getCastName() + "\n");
+            textArea.setText(textArea.getText() + "Director : "+ movie.getDirectorName() + "\n");
+            textArea.setText(textArea.getText() + "Writer : "+ movie.getWriterName() + "\n");
+            textArea.setText(textArea.getText() + "Keywords : "+ movie.getKeywords() + "\n");
+
+            textArea.setText(textArea.getText() + "---------------------------------------------------------------------------------------------------------------- \n \n");
+
+        }
+    }
+
+    public ArrayList<String> getKeywordsFromMovieList(ArrayList<Movie> movieList){
+
+        ArrayList<String> keywordsFromMovieList =  new ArrayList<>();
+        for(Movie movie: movieList){
+            keywordsFromMovieList.add(movie.getTitle());
+            keywordsFromMovieList.add(movie.getYear());
+            keywordsFromMovieList.add(movie.getRating());
+
+            for(String string: movie.getKeywords()){
+                keywordsFromMovieList.add(string);
+            }
+
+            for(String string:movie.getCompanies()){
+                keywordsFromMovieList.add(string);
+            }
+
+            for(String string:movie.getCastName()){
+                keywordsFromMovieList.add(string);
+            }
+
+            for(String string:movie.getCastRole()){
+                keywordsFromMovieList.add(string);
+            }
+
+            for(String string:movie.getWriterName()){
+                keywordsFromMovieList.add(string);
+            }
+
+            for(String string:movie.getWriterRole()){
+                keywordsFromMovieList.add(string);
+            }
+            for(String string:movie.getLanguages()){
+                keywordsFromMovieList.add(string);
+            }
+            keywordsFromMovieList.add(movie.getDirectorName());
+
+//            keywordsFromMovieList.add(movie.getGenres().toString());
+
+        }
+
+        return keywordsFromMovieList;
+    }
+
+
+    // This method takes the ArrayList of string of keywords and splits it if it has two words!
+    public ArrayList<String> filterKeywords(ArrayList<String> keyWordsFromList ){
+        ArrayList<String> filteredKeyWords = new ArrayList<>();
+        for(String string: keyWordsFromList ){
+            if(string.contains(" ")){
+                String[] split = string.split(" ");
+                for(int i=0;i<split.length;i++){
+                    filteredKeyWords.add(split[i]);
+                }
+            }
+            else{
+                filteredKeyWords.add(string);
+            }
+        }
+        return filteredKeyWords;
+    }
+
+    public HashSet<String> getHashSetOfKeywords(ArrayList<String> keywordsList){
+        HashSet<String> keywordsHashSet =  new HashSet<>(keywordsList);
+        return keywordsHashSet;
+    }
+
+
+
+//    public HashMap<String,Integer> getKeywordFrequencyMap(ArrayList<String> searchedMoviesKeywords, ArrayList<String> imdbMoviesKeywords){
+//        HashMap<String, Integer> keywordFrequencyMap = new HashMap<>();
+//        for(String string: searchedMoviesKeywords){
+//
+//        }
+//
+//    }
 
 }
