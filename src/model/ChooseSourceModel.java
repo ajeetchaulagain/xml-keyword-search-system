@@ -36,7 +36,6 @@ public class ChooseSourceModel {
         try {
             Document doc = docBuilder.parse(selectedFile);
 
-
             doc.getDocumentElement().normalize();
 
 
@@ -215,7 +214,6 @@ public class ChooseSourceModel {
         ArrayList<Movie> searchedMovieList =  new ArrayList<>();
         System.out.println("Inside searchMovie method");
         for (Movie movie : movieList) {
-
             if(movie.getKeywords().contains(searchKeyword)||
                 movie.getCastName().contains(searchKeyword) ||
                     movie.getDirectorName().contains(searchKeyword)||
@@ -223,7 +221,6 @@ public class ChooseSourceModel {
 //                    movie.getYear().contains(searchKeyword) ||
 //                    movie.getRating().contains(searchKeyword)||
 //                    movie.getWriterRole().contains(searchKeyword) ||
-
                     movie.getWriterName().contains(searchKeyword)||
                     movie.getCastRole().contains(searchKeyword) ||
                     // movie.getCountries().contains(searchKeyword) ||
@@ -237,8 +234,6 @@ public class ChooseSourceModel {
         }
         return searchedMovieList;
     }
-
-
 
 
     public void displaySearchedMovie(ArrayList<Movie> searchedMovieList, TextArea textArea){
@@ -267,7 +262,6 @@ public class ChooseSourceModel {
     }
 
     public ArrayList<String> getKeywordsFromMovieList(ArrayList<Movie> movieList){
-
         ArrayList<String> keywordsFromMovieList =  new ArrayList<>();
         for(Movie movie: movieList){
             keywordsFromMovieList.add(movie.getTitle());
@@ -278,10 +272,6 @@ public class ChooseSourceModel {
             for(String string: movie.getKeywords()){
                 keywordsFromMovieList.add(string);
             }
-
-//            for(String string:movie.getCompanies()){
-//                keywordsFromMovieList.add(string);
-//            }
 
             for(String string:movie.getCastName()){
                 keywordsFromMovieList.add(string);
@@ -333,6 +323,7 @@ public class ChooseSourceModel {
         return filteredKeyWords;
     }
 
+
     public HashSet<String> getHashSetOfKeywords(ArrayList<String> keywordsList){
         HashSet<String> keywordsHashSet =  new HashSet<>(keywordsList);
         return keywordsHashSet;
@@ -354,12 +345,11 @@ public class ChooseSourceModel {
         return keywordFrequencyMap;
     }
 
-    public HashMap<String,Integer> getSortedKeywordFrequencyMap(HashMap<String,Integer> keywordFrequencyMap){
 
+    public HashMap<String,Integer> getSortedKeywordFrequencyMap(HashMap<String,Integer> keywordFrequencyMap){
         // Create a list from elements of HashMap
         List<Map.Entry<String, Integer> > list =
                 new LinkedList<Map.Entry<String, Integer> >(keywordFrequencyMap.entrySet());
-
         // Sort the list
         Collections.sort(list, new Comparator<Map.Entry<String, Integer> >() {
             public int compare(Map.Entry<String, Integer> o1,
@@ -368,7 +358,6 @@ public class ChooseSourceModel {
                 return (o2.getValue()).compareTo(o1.getValue());
             }
         });
-
         // put data from sorted list to hashmap
         HashMap<String, Integer> temp = new LinkedHashMap<String, Integer>();
         for (Map.Entry<String, Integer> aa : list) {
@@ -393,7 +382,6 @@ public class ChooseSourceModel {
         }
         return nKeywordFrequencyMap;
     }
-
 
 
 }
