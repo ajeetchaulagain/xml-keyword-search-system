@@ -23,6 +23,12 @@ public class ChooseSourceModel {
     ArrayList<Movie> movieList = new ArrayList<>();
     String[] excludedKeywordsForValidation = {"English", "The"};
 
+    /**
+     *
+     * @param selectedFile
+     * @param textArea
+     * @return
+     */
     public ArrayList<Movie> parseAndDisplayXML(File selectedFile, TextArea textArea) {
 
         textArea.setText("");
@@ -210,6 +216,11 @@ public class ChooseSourceModel {
 
     // This method search the keyword in entire movie collection and returns the List of Movie that has that keyword
 
+    /**
+     *
+     * @param searchKeyword
+     * @return
+     */
     public ArrayList<Movie> searchMovie(String searchKeyword) {
         ArrayList<Movie> searchedMovieList =  new ArrayList<>();
         System.out.println("Inside searchMovie method");
@@ -236,6 +247,11 @@ public class ChooseSourceModel {
     }
 
 
+    /**
+     *
+     * @param searchedMovieList
+     * @param textArea
+     */
     public void displaySearchedMovie(ArrayList<Movie> searchedMovieList, TextArea textArea){
         System.out.println("Inside displaySearchedMovie method");
         textArea.setText("");
@@ -261,6 +277,11 @@ public class ChooseSourceModel {
         }
     }
 
+    /**
+     *
+     * @param movieList
+     * @return
+     */
     public ArrayList<String> getKeywordsFromMovieList(ArrayList<Movie> movieList){
         ArrayList<String> keywordsFromMovieList =  new ArrayList<>();
         for(Movie movie: movieList){
@@ -302,7 +323,11 @@ public class ChooseSourceModel {
     }
 
 
-    // This method takes the ArrayList of string of keywords and splits it if it has two words!
+    /**
+     *
+     * @param keyWordsFromList
+     * @return
+     */
     public ArrayList<String> filterKeywords(ArrayList<String> keyWordsFromList ){
         ArrayList<String> filteredKeyWords = new ArrayList<>();
         for(String string: keyWordsFromList ){
@@ -323,13 +348,22 @@ public class ChooseSourceModel {
         return filteredKeyWords;
     }
 
-
+    /**
+     *
+     * @param keywordsList
+     * @return
+     */
     public HashSet<String> getHashSetOfKeywords(ArrayList<String> keywordsList){
         HashSet<String> keywordsHashSet =  new HashSet<>(keywordsList);
         return keywordsHashSet;
     }
 
-
+    /**
+     *
+     * @param searchedMoviesKeywords
+     * @param imdbMoviesKeywords
+     * @return
+     */
     public HashMap<String,Integer> getKeywordFrequencyMap(HashSet<String> searchedMoviesKeywords, ArrayList<String> imdbMoviesKeywords){
         HashMap<String, Integer> keywordFrequencyMap = new HashMap<>();
         for(String keywordSearched: searchedMoviesKeywords){
@@ -345,7 +379,11 @@ public class ChooseSourceModel {
         return keywordFrequencyMap;
     }
 
-
+    /**
+     *
+     * @param keywordFrequencyMap
+     * @return
+     */
     public HashMap<String,Integer> getSortedKeywordFrequencyMap(HashMap<String,Integer> keywordFrequencyMap){
         // Create a list from elements of HashMap
         List<Map.Entry<String, Integer> > list =
@@ -366,7 +404,12 @@ public class ChooseSourceModel {
         return temp;
     }
 
-
+    /**
+     *
+     * @param sortedKeywordFrequencyMap
+     * @param noOfKeyword
+     * @return
+     */
     public HashMap<String,Integer> getNSortedKeywordFrequencyMap(HashMap<String,Integer> sortedKeywordFrequencyMap, int noOfKeyword){
         int i = 0;
         HashMap<String,Integer> nKeywordFrequencyMap = new HashMap<>();
