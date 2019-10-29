@@ -43,7 +43,6 @@ public class ChooseSourceController {
 
         TextArea textArea = chooseSourceView.getTextArea();
 
-
         chooseSourceView.addChooseSourceButtonListener(event -> {
             javafx.stage.FileChooser file = new javafx.stage.FileChooser();
             file.setTitle("Open File");

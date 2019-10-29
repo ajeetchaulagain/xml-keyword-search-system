@@ -297,7 +297,6 @@ public class ChooseSourceModel {
             for(String string:movie.getCastName()){
                 keywordsFromMovieList.add(string);
             }
-
 //            for(String string:movie.getCastRole()){
 //                keywordsFromMovieList.add(string);
 //            }

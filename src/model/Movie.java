@@ -36,18 +36,6 @@ public class Movie {
 
 
 
-
-
-    // Method to map castName with castRole
-
-//    private void mapCastNamewithCastRole(ArrayList castName, ArrayList castRole){
-//        HashMap<String, String> castMap = new HashMap<>();
-//        for(castName:cas)
-//    }
-//
-
-
-
     // Getter and Setter Methods for the fields
     public String getTitle() {
         return title;
