@@ -44,8 +44,6 @@ public class ChooseSourceView {
     Button searchButton;
 
 
-
-
     Label searchLabel;
 
     Button pieChart;
@@ -181,6 +179,10 @@ public class ChooseSourceView {
 
     public void addBarChartButtonListener(EventHandler<ActionEvent> eventListener){
         barChart.setOnAction(eventListener);
+    }
+
+    public void addPiechartButtonListener(EventHandler<ActionEvent> eventListener){
+        pieChart.setOnAction(eventListener);
     }
 
     // Getters and Setters method reside here!

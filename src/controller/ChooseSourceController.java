@@ -1,10 +1,10 @@
 package controller;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import javafx.scene.Group;
 import javafx.scene.Scene;
-import javafx.scene.chart.BarChart;
-import javafx.scene.chart.CategoryAxis;
-import javafx.scene.chart.NumberAxis;
-import javafx.scene.chart.XYChart;
+import javafx.scene.chart.*;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextArea;
 import javafx.stage.Stage;
@@ -99,11 +99,11 @@ public class ChooseSourceController {
         });
 
         chooseSourceView.addBarChartButtonListener(event -> {
-
             // values needed
             // HashMap of top keywords
+            Stage barChartStage = new Stage();
 
-            stage.setTitle("Bar Chart Sample ");
+            barChartStage.setTitle("Bar Chart Sample ");
             final CategoryAxis xAxis = new CategoryAxis();
             final NumberAxis yAxis = new NumberAxis();
             final BarChart<String, Number> bc =
@@ -112,7 +112,6 @@ public class ChooseSourceController {
             xAxis.setLabel("Keywords");
 
             yAxis.setLabel("No of Occurrence");
-
 
             RadioButton selectedRadioButton =
                     (RadioButton) chooseSourceView.getToggleGroup().getSelectedToggle();
@@ -126,6 +125,7 @@ public class ChooseSourceController {
                     nKeywordFrequencyMap.put(entry.getKey(), entry.getValue());
                     series.getData().add(new XYChart.Data(entry.getKey(), entry.getValue()));
                 }
+
                 bc.getData().addAll(series);
             } else if (selectedRadioButton.getText() == "Top-5 Coorelated Keywords") {
                 nKeywordFrequencyMap = chooseSourceModel.getNSortedKeywordFrequencyMap(sortedKeywordFrequencyMap, 5);
@@ -158,15 +158,73 @@ public class ChooseSourceController {
                 bc.getData().addAll(series);
 
             }
-
-
-            stage.setScene(scene);
-            stage.show();
-
-
+            barChartStage.setScene(scene);
+            barChartStage.show();
         });
 
-//        chooseSourceView.add
+
+        chooseSourceView.addPiechartButtonListener(event -> {
+
+            Scene scene = new Scene(new Group());
+            Stage pieChartStage = new Stage();
+
+            pieChartStage.setTitle("Bar Chart Sample ");
+            pieChartStage.setWidth(500);
+            pieChartStage.setHeight(500);
+
+//            ObservableList<PieChart.Data> pieChartData =
+//                    FXCollections.observableArrayList(
+//
+//                            new PieChart.Data("Test", 20),
+//                            new PieChart.Data("Test 2",25),
+//                            new PieChart.Data("Test 3", 35)
+//                    );
+
+            final PieChart chart = new PieChart();
+
+            chart.setTitle("Test Fruit");
+            ((Group) scene.getRoot()).getChildren().add(chart);
+
+            RadioButton selectedRadioButton =
+                    (RadioButton) chooseSourceView.getToggleGroup().getSelectedToggle();
+
+
+            if (selectedRadioButton.getText() == "Top-3 Coorelated Keywords") {
+                nKeywordFrequencyMap = chooseSourceModel.getNSortedKeywordFrequencyMap(sortedKeywordFrequencyMap, 3);
+
+                for (Map.Entry<String, Integer> entry : nKeywordFrequencyMap.entrySet()) {
+                    nKeywordFrequencyMap.put(entry.getKey(), entry.getValue());
+                    chart.getData().add(new PieChart.Data(entry.getKey(),entry.getValue()));
+                }
+            }
+
+            else if (selectedRadioButton.getText() == "Top-5 Coorelated Keywords") {
+                nKeywordFrequencyMap = chooseSourceModel.getNSortedKeywordFrequencyMap(sortedKeywordFrequencyMap, 5);
+
+                for (Map.Entry<String, Integer> entry : nKeywordFrequencyMap.entrySet()) {
+                    nKeywordFrequencyMap.put(entry.getKey(), entry.getValue());
+                    chart.getData().add(new PieChart.Data(entry.getKey(),entry.getValue()));
+                }
+            }
+            else if (selectedRadioButton.getText() == "Top-8 Coorelated Keywords") {
+                nKeywordFrequencyMap = chooseSourceModel.getNSortedKeywordFrequencyMap(sortedKeywordFrequencyMap, 8);
+
+                for (Map.Entry<String, Integer> entry : nKeywordFrequencyMap.entrySet()) {
+                    nKeywordFrequencyMap.put(entry.getKey(), entry.getValue());
+                    chart.getData().add(new PieChart.Data(entry.getKey(),entry.getValue()));
+                }
+
+            } else if (selectedRadioButton.getText() == "Top-10 Coorelated Keywords") {
+                nKeywordFrequencyMap = chooseSourceModel.getNSortedKeywordFrequencyMap(sortedKeywordFrequencyMap, 10);
+
+                for (Map.Entry<String, Integer> entry : nKeywordFrequencyMap.entrySet()) {
+                    nKeywordFrequencyMap.put(entry.getKey(), entry.getValue());
+                    chart.getData().add(new PieChart.Data(entry.getKey(),entry.getValue()));
+                }
+            }
+            pieChartStage.setScene(scene);
+            pieChartStage.show();
+        });
     }
 
 }
