@@ -16,7 +16,6 @@ import java.util.ArrayList;
 
 public class XMLDOMParser {
 
-
     ArrayList<Movie> movieList = new ArrayList();
 
     public ArrayList<Movie> parseAndDisplayXML(File selectedFile, TextArea textArea) {
@@ -31,10 +30,7 @@ public class XMLDOMParser {
         }
         try {
             Document doc = docBuilder.parse(selectedFile);
-
             doc.getDocumentElement().normalize();
-
-
             textArea.setText(textArea.getText() + "Root Element: " + doc.getDocumentElement().getNodeName() + "\n");
             NodeList nList = doc.getElementsByTagName("movie");
             textArea.setText(textArea.getText() + "----------------------------" + "\n");

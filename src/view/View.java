@@ -18,7 +18,7 @@ import javafx.scene.layout.VBox;
 import javax.swing.event.ChangeListener;
 import java.awt.*;
 
-public class ChooseSourceView {
+public class View {
 
     private GridPane gridPaneView;
     Button btnChooseSource;
@@ -38,8 +38,6 @@ public class ChooseSourceView {
     HBox hboxRadioButtons;
     HBox hboxGraphButtons;
 
-
-
     TextField searchField;
     Button searchButton;
 
@@ -53,7 +51,7 @@ public class ChooseSourceView {
 
 
 
-    public ChooseSourceView(){
+    public View(){
         createAndConfigureLayoutControls();
         createAndConfigurePane();
     }

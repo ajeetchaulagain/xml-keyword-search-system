@@ -1,31 +1,23 @@
 package controller;
 
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.chart.*;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextArea;
 import javafx.stage.Stage;
-import model.ChooseSourceModel;
+import model.Model;
 import model.Movie;
-import org.w3c.dom.*;
-import org.xml.sax.SAXException;
-import view.ChooseSourceView;
+import model.XMLDOMParser;
+import view.View;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import java.awt.*;
 import java.io.File;
-import java.io.IOException;
 import java.util.*;
 
-public class ChooseSourceController {
+public class Controller {
 
-    private ChooseSourceModel chooseSourceModel;
-    private ChooseSourceView chooseSourceView;
+    private Model chooseSourceModel;
+    private View view;
 
     File selectedFile = null;
     ArrayList<Movie> movieList = null;
@@ -33,33 +25,36 @@ public class ChooseSourceController {
     HashMap<String, Integer> keywordFrequencyMap;
     HashMap<String, Integer> sortedKeywordFrequencyMap;
 
-    public ChooseSourceController(ChooseSourceModel chooseSourceModel, ChooseSourceView chooseSourceView) {
+    public Controller(Model chooseSourceModel, View view) {
         this.chooseSourceModel = chooseSourceModel;
-        this.chooseSourceView = chooseSourceView;
+        this.view = view;
     }
 
     // Method to add the button listeners
     public void addButtonListeners(Stage stage) {
 
-        TextArea textArea = chooseSourceView.getTextArea();
+        TextArea textArea = view.getTextArea();
 
-        chooseSourceView.addChooseSourceButtonListener(event -> {
+        view.addChooseSourceButtonListener(event -> {
             javafx.stage.FileChooser file = new javafx.stage.FileChooser();
             file.setTitle("Open File");
             selectedFile = file.showOpenDialog(stage);
-            chooseSourceView.getLblSource().setText(selectedFile.getName());
+            view.getLblSource().setText(selectedFile.getName());
         });
 
 
-        chooseSourceView.addLoadTextButtonListener(event -> {
-            movieList = chooseSourceModel.parseAndDisplayXML(selectedFile, textArea);
+        view.addLoadTextButtonListener(event -> {
+//            movieList = chooseSourceModel.parseAndDisplayXML(selectedFile, textArea);
+            XMLDOMParser xmldomParser = new XMLDOMParser();
+            movieList = xmldomParser.parseAndDisplayXML(selectedFile,textArea);
 
         });
 
-        chooseSourceView.addSearchButtonListener(event -> {
+
+        view.addSearchButtonListener(event -> {
 
             System.out.println("Search Button clicked");
-            String searchKeyword = chooseSourceView.getSearchField().getText();
+            String searchKeyword = view.getSearchField().getText();
 
             ArrayList<String> keywordsListFromMovieList = chooseSourceModel.getKeywordsFromMovieList(movieList);
             ArrayList<String> filteredKeywordsFromMovieList = chooseSourceModel.filterKeywords(keywordsListFromMovieList);
@@ -71,7 +66,7 @@ public class ChooseSourceController {
             }
 
 
-            ArrayList<Movie> searchedMovieList = chooseSourceModel.searchMovie(searchKeyword);
+            ArrayList<Movie> searchedMovieList = chooseSourceModel.searchMovie(searchKeyword,movieList);
             ArrayList<String> keywordsListFromSearchedMovie = chooseSourceModel.getKeywordsFromMovieList(searchedMovieList);
             ArrayList<String> filteredKeywords = chooseSourceModel.filterKeywords(keywordsListFromSearchedMovie);
 
@@ -98,7 +93,7 @@ public class ChooseSourceController {
 
         });
 
-        chooseSourceView.addBarChartButtonListener(event -> {
+        view.addBarChartButtonListener(event -> {
             // values needed
             // HashMap of top keywords
             Stage barChartStage = new Stage();
@@ -114,7 +109,7 @@ public class ChooseSourceController {
             yAxis.setLabel("No of Occurrence");
 
             RadioButton selectedRadioButton =
-                    (RadioButton) chooseSourceView.getToggleGroup().getSelectedToggle();
+                    (RadioButton) view.getToggleGroup().getSelectedToggle();
 
             Scene scene = new Scene(bc, 800, 600);
             if (selectedRadioButton.getText() == "Top-3 Coorelated Keywords") {
@@ -163,7 +158,7 @@ public class ChooseSourceController {
         });
 
 
-        chooseSourceView.addPiechartButtonListener(event -> {
+        view.addPiechartButtonListener(event -> {
 
             Scene scene = new Scene(new Group());
             Stage pieChartStage = new Stage();
@@ -186,7 +181,7 @@ public class ChooseSourceController {
             ((Group) scene.getRoot()).getChildren().add(chart);
 
             RadioButton selectedRadioButton =
-                    (RadioButton) chooseSourceView.getToggleGroup().getSelectedToggle();
+                    (RadioButton) view.getToggleGroup().getSelectedToggle();
 
 
             if (selectedRadioButton.getText() == "Top-3 Coorelated Keywords") {

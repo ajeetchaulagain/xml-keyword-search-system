@@ -1,22 +1,21 @@
-import java.io.*;
-import controller.ChooseSourceController;
+import controller.Controller;
 import javafx.application.Application;
 import javafx.scene.Scene;
 
 import javafx.stage.Stage;
-import model.ChooseSourceModel;
-import view.ChooseSourceView;
+import model.Model;
+import view.View;
 
 public class XMLFileParsing extends Application {
 
 	@Override
 	public void start(Stage stage) throws Exception {
-		ChooseSourceView chooseSourceView = new ChooseSourceView();
-		ChooseSourceModel chooseSourceModel = new ChooseSourceModel();
-		ChooseSourceController chooseSourceController =  new ChooseSourceController(chooseSourceModel,chooseSourceView);
-		chooseSourceController.addButtonListeners(stage);
+		View view = new View();
+		Model chooseSourceModel = new Model();
+		Controller controller =  new Controller(chooseSourceModel, view);
+		controller.addButtonListeners(stage);
 
-		Scene scene = new Scene(chooseSourceView.asParent(),700,700);
+		Scene scene = new Scene(view.asParent(),700,700);
 		stage.setScene(scene);
 		stage.setTitle("Search System");
 		stage.show();
