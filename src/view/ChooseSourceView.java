@@ -142,6 +142,7 @@ public class ChooseSourceView {
     }
 
     public void createAndConfigurePane(){
+
         gridPaneView = new GridPane();
 //        gridPaneView.setGridLinesVisible(true);
         gridPaneView.setPadding(new Insets(20,20,20,20));

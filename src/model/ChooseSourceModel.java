@@ -286,7 +286,8 @@ public class ChooseSourceModel {
         ArrayList<String> keywordsFromMovieList =  new ArrayList<>();
         for(Movie movie: movieList){
             keywordsFromMovieList.add(movie.getTitle());
-            keywordsFromMovieList.add(movie.getYear());
+
+//            keywordsFromMovieList.add(movie.getYear());
 
             // keywordsFromMovieList.add(movie.getRating());
 
@@ -294,9 +295,9 @@ public class ChooseSourceModel {
                 keywordsFromMovieList.add(string);
             }
 
-            for(String string:movie.getCastName()){
-                keywordsFromMovieList.add(string);
-            }
+//            for(String string:movie.getCastName()){
+//                keywordsFromMovieList.add(string);
+//            }
 //            for(String string:movie.getCastRole()){
 //                keywordsFromMovieList.add(string);
 //            }
@@ -340,6 +341,8 @@ public class ChooseSourceModel {
                 filteredKeyWords.add(string);
             }
         }
+
+        // Non reliable keywords
         filteredKeyWords.removeAll(Collections.singleton("Pictures"));
         filteredKeyWords.removeAll(Collections.singleton("Entertainment"));
         filteredKeyWords.removeAll(Collections.singleton("Productions"));
