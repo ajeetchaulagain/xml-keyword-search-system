@@ -18,6 +18,12 @@ public class XMLDOMParser {
 
     ArrayList<Movie> movieList = new ArrayList();
 
+    /**
+     *
+     * @param selectedFile
+     * @param textArea
+     * @return ArrayList<Movie>
+     */
     public ArrayList<Movie> parseAndDisplayXML(File selectedFile, TextArea textArea) {
 
         textArea.setText("");

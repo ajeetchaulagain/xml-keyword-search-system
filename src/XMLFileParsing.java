@@ -6,6 +6,10 @@ import javafx.stage.Stage;
 import model.Model;
 import view.View;
 
+/**
+ * Main application
+ */
+
 public class XMLFileParsing extends Application {
 
 	@Override

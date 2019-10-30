@@ -21,33 +21,33 @@ import java.awt.*;
 public class View {
 
     private GridPane gridPaneView;
-    Button btnChooseSource;
-    HBox hboxSource;
-    TextArea textArea;
-    Button btnLoadFile;
-    HBox hboxLoad;
-    Label lblSource;
-    Label applicationTitle;
-    Label applicationDescription;
-    VBox vboxTitle;
-    Separator separator1;
-    Separator separator2;
-    Separator separator3;
+    private Button btnChooseSource;
+    private HBox hboxSource;
+    private TextArea textArea;
+    private Button btnLoadFile;
+    private HBox hboxLoad;
+    private Label lblSource;
+    private Label applicationTitle;
+    private Label applicationDescription;
+    private VBox vboxTitle;
+    private Separator separator1;
+    private Separator separator2;
+    private Separator separator3;
 
-    HBox hboxSearch;
-    HBox hboxRadioButtons;
-    HBox hboxGraphButtons;
+    private HBox hboxSearch;
+    private HBox hboxRadioButtons;
+    private HBox hboxGraphButtons;
 
-    TextField searchField;
-    Button searchButton;
+    private TextField searchField;
+    private Button searchButton;
 
 
-    Label searchLabel;
+    private Label searchLabel;
 
-    Button pieChart;
-    Button barChart;
+    private Button pieChart;
+    private Button barChart;
 
-    ToggleGroup toggleGroup;
+    private ToggleGroup toggleGroup;
 
 
 

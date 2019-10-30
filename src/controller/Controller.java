@@ -19,18 +19,28 @@ public class Controller {
     private Model model;
     private View view;
 
-    File selectedFile = null;
-    ArrayList<Movie> movieList = null;
-    HashMap<String, Integer> nKeywordFrequencyMap;
-    HashMap<String, Integer> keywordFrequencyMap;
-    HashMap<String, Integer> sortedKeywordFrequencyMap;
+    private File selectedFile = null;
+    private ArrayList<Movie> movieList = null;
+    private HashMap<String, Integer> nKeywordFrequencyMap;
+    private HashMap<String, Integer> keywordFrequencyMap;
+    private HashMap<String, Integer> sortedKeywordFrequencyMap;
 
+
+    /**
+     *
+     * @param model
+     * @param view
+     */
     public Controller(Model model, View view) {
         this.model = model;
         this.view = view;
     }
 
-    // Method to add the button listeners
+    /**
+     *
+     * @param stage
+     * Method to add the button listeners
+     */
     public void addButtonListeners(Stage stage) {
 
         TextArea textArea = view.getTextArea();

@@ -1,12 +1,10 @@
 package model;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.HashMap;
 
-/*
-    POJO class to map the retrieved data from the XML document
 
+/**
+ * POJO class to map the parsed data from XML file
  */
 public class Movie {
 
@@ -37,6 +35,7 @@ public class Movie {
 
 
     // Getter and Setter Methods for the fields
+
     public String getTitle() {
         return title;
     }
@@ -140,9 +139,6 @@ public class Movie {
     public void setCompanies(ArrayList<String> companies) {
         this.companies = companies;
     }
-
-
-
 
     // To string method is overrided with the new definition.
     @Override

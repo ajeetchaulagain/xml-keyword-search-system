@@ -13,7 +13,6 @@ public class Model {
      * This method search the keyword in entire movie collection and returns the List of Movie that has that keyword
      */
 
-
     public ArrayList<Movie> searchMovie(String searchKeyword,ArrayList<Movie> movieList) {
         ArrayList<Movie> searchedMovieList =  new ArrayList<>();
         System.out.println("Inside searchMovie method");
@@ -44,6 +43,7 @@ public class Model {
      *
      * @param searchedMovieList
      * @param textArea
+     * This method displauys the searched movie in a text area
      */
     public void displaySearchedMovie(ArrayList<Movie> searchedMovieList, TextArea textArea){
         System.out.println("Inside displaySearchedMovie method");
@@ -72,7 +72,8 @@ public class Model {
     /**
      *
      * @param movieList
-     * @return
+     * @return ArrayList<String>
+     *  This method extracts the keywords from a movie list as per provided
      */
     public ArrayList<String> getKeywordsFromMovieList(ArrayList<Movie> movieList){
         ArrayList<String> keywordsFromMovieList =  new ArrayList<>();
@@ -120,6 +121,7 @@ public class Model {
      *
      * @param keyWordsFromList
      * @return
+     * This method filters the keyword to single word keyword and return the arraylist of keywords
      */
     public ArrayList<String> filterKeywords(ArrayList<String> keyWordsFromList ){
         ArrayList<String> filteredKeyWords = new ArrayList<>();
@@ -146,7 +148,8 @@ public class Model {
     /**
      *
      * @param keywordsList
-     * @return
+     * @return HashSet<>
+     * This method returns the hashset of the keywords
      */
     public HashSet<String> getHashSetOfKeywords(ArrayList<String> keywordsList){
         HashSet<String> keywordsHashSet =  new HashSet<>(keywordsList);
@@ -158,7 +161,7 @@ public class Model {
      *
      * @param searchedMoviesKeywords
      * @param imdbMoviesKeywords
-     * @return
+     * @return HashMap<>
      */
     public HashMap<String,Integer> getKeywordFrequencyMap(HashSet<String> searchedMoviesKeywords, ArrayList<String> imdbMoviesKeywords){
         HashMap<String, Integer> keywordFrequencyMap = new HashMap<>();
@@ -178,7 +181,7 @@ public class Model {
     /**
      *
      * @param keywordFrequencyMap
-     * @return
+     * @return HashMap<>
      */
 
     public HashMap<String,Integer> getSortedKeywordFrequencyMap(HashMap<String,Integer> keywordFrequencyMap){
@@ -206,7 +209,7 @@ public class Model {
      *
      * @param sortedKeywordFrequencyMap
      * @param noOfKeyword
-     * @return
+     * @return HashMap<>
      */
     public HashMap<String,Integer> getNSortedKeywordFrequencyMap(HashMap<String,Integer> sortedKeywordFrequencyMap, int noOfKeyword){
         int i = 0;
