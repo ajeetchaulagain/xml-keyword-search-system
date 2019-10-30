@@ -1,33 +1,19 @@
 package model;
 
 import javafx.scene.control.TextArea;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import java.awt.*;
-import java.io.File;
-import java.io.IOException;
-import java.sql.SQLOutput;
 import java.util.*;
 import java.util.List;
 
 public class Model {
 
-    // Movie List
-//    ArrayList<Movie> movieList = new ArrayList<>();
-    String[] excludedKeywordsForValidation = {"English", "The"};
     /**
      *
      * @param searchKeyword
      * @return
      * This method search the keyword in entire movie collection and returns the List of Movie that has that keyword
      */
+
+
     public ArrayList<Movie> searchMovie(String searchKeyword,ArrayList<Movie> movieList) {
         ArrayList<Movie> searchedMovieList =  new ArrayList<>();
         System.out.println("Inside searchMovie method");
@@ -91,6 +77,7 @@ public class Model {
     public ArrayList<String> getKeywordsFromMovieList(ArrayList<Movie> movieList){
         ArrayList<String> keywordsFromMovieList =  new ArrayList<>();
         for(Movie movie: movieList){
+
             keywordsFromMovieList.add(movie.getTitle());
 
 //            keywordsFromMovieList.add(movie.getYear());

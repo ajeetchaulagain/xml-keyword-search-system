@@ -16,7 +16,7 @@ import java.util.*;
 
 public class Controller {
 
-    private Model chooseSourceModel;
+    private Model model;
     private View view;
 
     File selectedFile = null;
@@ -25,8 +25,8 @@ public class Controller {
     HashMap<String, Integer> keywordFrequencyMap;
     HashMap<String, Integer> sortedKeywordFrequencyMap;
 
-    public Controller(Model chooseSourceModel, View view) {
-        this.chooseSourceModel = chooseSourceModel;
+    public Controller(Model model, View view) {
+        this.model = model;
         this.view = view;
     }
 
@@ -44,7 +44,7 @@ public class Controller {
 
 
         view.addLoadTextButtonListener(event -> {
-//            movieList = chooseSourceModel.parseAndDisplayXML(selectedFile, textArea);
+//            movieList = model.parseAndDisplayXML(selectedFile, textArea);
             XMLDOMParser xmldomParser = new XMLDOMParser();
             movieList = xmldomParser.parseAndDisplayXML(selectedFile,textArea);
 
@@ -56,8 +56,8 @@ public class Controller {
             System.out.println("Search Button clicked");
             String searchKeyword = view.getSearchField().getText();
 
-            ArrayList<String> keywordsListFromMovieList = chooseSourceModel.getKeywordsFromMovieList(movieList);
-            ArrayList<String> filteredKeywordsFromMovieList = chooseSourceModel.filterKeywords(keywordsListFromMovieList);
+            ArrayList<String> keywordsListFromMovieList = model.getKeywordsFromMovieList(movieList);
+            ArrayList<String> filteredKeywordsFromMovieList = model.filterKeywords(keywordsListFromMovieList);
             for (String string : keywordsListFromMovieList) {
                 System.out.println("Key: " + string);
             }
@@ -66,29 +66,29 @@ public class Controller {
             }
 
 
-            ArrayList<Movie> searchedMovieList = chooseSourceModel.searchMovie(searchKeyword,movieList);
-            ArrayList<String> keywordsListFromSearchedMovie = chooseSourceModel.getKeywordsFromMovieList(searchedMovieList);
-            ArrayList<String> filteredKeywords = chooseSourceModel.filterKeywords(keywordsListFromSearchedMovie);
+            ArrayList<Movie> searchedMovieList = model.searchMovie(searchKeyword,movieList);
+            ArrayList<String> keywordsListFromSearchedMovie = model.getKeywordsFromMovieList(searchedMovieList);
+            ArrayList<String> filteredKeywords = model.filterKeywords(keywordsListFromSearchedMovie);
 
             for (String string : filteredKeywords) {
                 System.out.println("Key Filtered [Searched Movie]" + string);
             }
 
 
-            HashSet<String> keywordsHashSet = chooseSourceModel.getHashSetOfKeywords(filteredKeywords);
+            HashSet<String> keywordsHashSet = model.getHashSetOfKeywords(filteredKeywords);
             for (String string : keywordsHashSet) {
                 System.out.println("Key Filtered [Searched Movie][Hashset]: " + string);
             }
 
-            keywordFrequencyMap = chooseSourceModel.getKeywordFrequencyMap(keywordsHashSet, filteredKeywordsFromMovieList);
+            keywordFrequencyMap = model.getKeywordFrequencyMap(keywordsHashSet, filteredKeywordsFromMovieList);
             System.out.println("KeyWord Frequency" + keywordFrequencyMap.size());
 
-            sortedKeywordFrequencyMap = chooseSourceModel.getSortedKeywordFrequencyMap(keywordFrequencyMap);
+            sortedKeywordFrequencyMap = model.getSortedKeywordFrequencyMap(keywordFrequencyMap);
 
 
 //                  System.out.println("Filtered Keywords Size [HashSet]: "+ keywordsHashSet.size());
 //                  System.out.println("Filtered Keyword Size [ArrayList]:" + filteredKeywords.size());
-            chooseSourceModel.displaySearchedMovie(searchedMovieList, textArea);
+            model.displaySearchedMovie(searchedMovieList, textArea);
 
 
         });
@@ -98,12 +98,12 @@ public class Controller {
             // HashMap of top keywords
             Stage barChartStage = new Stage();
 
-            barChartStage.setTitle("Bar Chart Sample ");
+            barChartStage.setTitle("Bar Chart");
             final CategoryAxis xAxis = new CategoryAxis();
             final NumberAxis yAxis = new NumberAxis();
             final BarChart<String, Number> bc =
                     new BarChart<>(xAxis, yAxis);
-            bc.setTitle("KeyWord Occurrence");
+            bc.setTitle("Correlated keyword occurrence chart");
             xAxis.setLabel("Keywords");
 
             yAxis.setLabel("No of Occurrence");
@@ -113,7 +113,7 @@ public class Controller {
 
             Scene scene = new Scene(bc, 800, 600);
             if (selectedRadioButton.getText() == "Top-3 Coorelated Keywords") {
-                nKeywordFrequencyMap = chooseSourceModel.getNSortedKeywordFrequencyMap(sortedKeywordFrequencyMap, 3);
+                nKeywordFrequencyMap = model.getNSortedKeywordFrequencyMap(sortedKeywordFrequencyMap, 3);
                 XYChart.Series series = new XYChart.Series();
 
                 for (Map.Entry<String, Integer> entry : nKeywordFrequencyMap.entrySet()) {
@@ -123,7 +123,7 @@ public class Controller {
 
                 bc.getData().addAll(series);
             } else if (selectedRadioButton.getText() == "Top-5 Coorelated Keywords") {
-                nKeywordFrequencyMap = chooseSourceModel.getNSortedKeywordFrequencyMap(sortedKeywordFrequencyMap, 5);
+                nKeywordFrequencyMap = model.getNSortedKeywordFrequencyMap(sortedKeywordFrequencyMap, 5);
                 XYChart.Series series = new XYChart.Series();
 
                 for (Map.Entry<String, Integer> entry : nKeywordFrequencyMap.entrySet()) {
@@ -133,7 +133,7 @@ public class Controller {
                 bc.getData().addAll(series);
 
             } else if (selectedRadioButton.getText() == "Top-8 Coorelated Keywords") {
-                nKeywordFrequencyMap = chooseSourceModel.getNSortedKeywordFrequencyMap(sortedKeywordFrequencyMap, 8);
+                nKeywordFrequencyMap = model.getNSortedKeywordFrequencyMap(sortedKeywordFrequencyMap, 8);
                 XYChart.Series series = new XYChart.Series();
 
                 for (Map.Entry<String, Integer> entry : nKeywordFrequencyMap.entrySet()) {
@@ -143,7 +143,7 @@ public class Controller {
                 bc.getData().addAll(series);
 
             } else if (selectedRadioButton.getText() == "Top-10 Coorelated Keywords") {
-                nKeywordFrequencyMap = chooseSourceModel.getNSortedKeywordFrequencyMap(sortedKeywordFrequencyMap, 10);
+                nKeywordFrequencyMap = model.getNSortedKeywordFrequencyMap(sortedKeywordFrequencyMap, 10);
                 XYChart.Series series = new XYChart.Series();
 
                 for (Map.Entry<String, Integer> entry : nKeywordFrequencyMap.entrySet()) {
@@ -177,7 +177,7 @@ public class Controller {
 
             final PieChart chart = new PieChart();
 
-            chart.setTitle("Test Fruit");
+            chart.setTitle("Correlated Keywords");
             ((Group) scene.getRoot()).getChildren().add(chart);
 
             RadioButton selectedRadioButton =
@@ -185,7 +185,7 @@ public class Controller {
 
 
             if (selectedRadioButton.getText() == "Top-3 Coorelated Keywords") {
-                nKeywordFrequencyMap = chooseSourceModel.getNSortedKeywordFrequencyMap(sortedKeywordFrequencyMap, 3);
+                nKeywordFrequencyMap = model.getNSortedKeywordFrequencyMap(sortedKeywordFrequencyMap, 3);
 
                 for (Map.Entry<String, Integer> entry : nKeywordFrequencyMap.entrySet()) {
                     nKeywordFrequencyMap.put(entry.getKey(), entry.getValue());
@@ -194,7 +194,7 @@ public class Controller {
             }
 
             else if (selectedRadioButton.getText() == "Top-5 Coorelated Keywords") {
-                nKeywordFrequencyMap = chooseSourceModel.getNSortedKeywordFrequencyMap(sortedKeywordFrequencyMap, 5);
+                nKeywordFrequencyMap = model.getNSortedKeywordFrequencyMap(sortedKeywordFrequencyMap, 5);
 
                 for (Map.Entry<String, Integer> entry : nKeywordFrequencyMap.entrySet()) {
                     nKeywordFrequencyMap.put(entry.getKey(), entry.getValue());
@@ -202,7 +202,7 @@ public class Controller {
                 }
             }
             else if (selectedRadioButton.getText() == "Top-8 Coorelated Keywords") {
-                nKeywordFrequencyMap = chooseSourceModel.getNSortedKeywordFrequencyMap(sortedKeywordFrequencyMap, 8);
+                nKeywordFrequencyMap = model.getNSortedKeywordFrequencyMap(sortedKeywordFrequencyMap, 8);
 
                 for (Map.Entry<String, Integer> entry : nKeywordFrequencyMap.entrySet()) {
                     nKeywordFrequencyMap.put(entry.getKey(), entry.getValue());
@@ -210,7 +210,7 @@ public class Controller {
                 }
 
             } else if (selectedRadioButton.getText() == "Top-10 Coorelated Keywords") {
-                nKeywordFrequencyMap = chooseSourceModel.getNSortedKeywordFrequencyMap(sortedKeywordFrequencyMap, 10);
+                nKeywordFrequencyMap = model.getNSortedKeywordFrequencyMap(sortedKeywordFrequencyMap, 10);
 
                 for (Map.Entry<String, Integer> entry : nKeywordFrequencyMap.entrySet()) {
                     nKeywordFrequencyMap.put(entry.getKey(), entry.getValue());
